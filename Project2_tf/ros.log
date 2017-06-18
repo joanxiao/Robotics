@@ -1,0 +1,350 @@
+ROSCORE: ... logging to /home/ccc_v1_w_dd4cc_18220/asn12663_Vocareum_Proxy_Project_2_-1/asn12664_Project_2/work/.ros/log/80e9405a-28a3-11e7-8a4a-06b0869cc04d/roslaunch-ip-172-31-26-229-19296.log
+ROSCORE: Checking log directory for disk usage. This may take awhile.
+ROSCORE: Press Ctrl-C to interrupt
+ROSCORE: Done checking log file disk usage. Usage is <1GB.
+ROSCORE: ]2;roscore
+ROSCORE: [1mstarted roslaunch server http://ip-172-31-26-229:55123/[0m
+ROSCORE: ros_comm version 1.11.20
+ROSCORE: 
+ROSCORE: 
+ROSCORE: SUMMARY
+ROSCORE: ========
+ROSCORE: 
+ROSCORE: PARAMETERS
+ROSCORE:  * /rosdistro: indigo
+ROSCORE:  * /rosversion: 1.11.20
+ROSCORE: 
+ROSCORE: NODES
+ROSCORE: 
+ROSCORE: auto-starting new master
+ROSCORE: [1mprocess[master]: started with pid [19311][0m
+ROSCORE: [1mROS_MASTER_URI=http://ip-172-31-26-229:40757/[0m
+ROSCORE: ]2;roscore http://ip-172-31-26-229:40757/
+ROSCORE: [1msetting /run_id to 80e9405a-28a3-11e7-8a4a-06b0869cc04d[0m
+ROSCORE: [1mprocess[rosout-1]: started with pid [19324][0m
+ROSCORE: started core service [/rosout]
+BR: Port for WebSocketServer: 48702
+BR: Running cmd: roslaunch rosbridge_server rosbridge_websocket.launch port:=48702
+BR: ... logging to /home/ccc_v1_w_dd4cc_18220/asn12663_Vocareum_Proxy_Project_2_-1/asn12664_Project_2/work/.ros/log/80e9405a-28a3-11e7-8a4a-06b0869cc04d/roslaunch-ip-172-31-26-229-19404.log
+BR: Checking log directory for disk usage. This may take awhile.
+BR: Press Ctrl-C to interrupt
+BR: Done checking log file disk usage. Usage is <1GB.
+BR: ]2;/opt/ros/indigo/share/rosbridge_server/launch/rosbridge_websocket.launch
+BR: [1mstarted roslaunch server http://ip-172-31-26-229:34303/[0m
+BR: 
+BR: SUMMARY
+BR: ========
+BR: 
+BR: PARAMETERS
+BR:  * /rosbridge_websocket/address: 
+BR:  * /rosbridge_websocket/authenticate: False
+BR:  * /rosbridge_websocket/delay_between_messages: 0
+BR:  * /rosbridge_websocket/fragment_timeout: 600
+BR:  * /rosbridge_websocket/max_message_size: None
+BR:  * /rosbridge_websocket/port: 48702
+BR:  * /rosbridge_websocket/retry_startup_delay: 5
+BR:  * /rosdistro: indigo
+BR:  * /rosversion: 1.11.20
+BR: 
+BR: NODES
+BR:   /
+BR:     rosapi (rosapi/rosapi_node)
+BR:     rosbridge_websocket (rosbridge_server/rosbridge_websocket)
+BR: 
+BR: [1mROS_MASTER_URI=http://localhost:40757[0m
+BR: ]2;/opt/ros/indigo/share/rosbridge_server/launch/rosbridge_websocket.launch http://localhost:40757
+BR: core service [/rosout] found
+BR: [1mprocess[rosbridge_websocket-1]: started with pid [19476][0m
+BR: [1mprocess[rosapi-2]: started with pid [19477][0m
+BR: registered capabilities (classes):
+BR:  - rosbridge_library.capabilities.call_service.CallService
+BR:  - rosbridge_library.capabilities.advertise.Advertise
+BR:  - rosbridge_library.capabilities.publish.Publish
+BR:  - rosbridge_library.capabilities.subscribe.Subscribe
+BR:  - <class 'rosbridge_library.capabilities.defragmentation.Defragment'>
+BR:  - rosbridge_library.capabilities.advertise_service.AdvertiseService
+BR:  - rosbridge_library.capabilities.service_response.ServiceResponse
+BR:  - rosbridge_library.capabilities.unadvertise_service.UnadvertiseService
+BR: the rosdep view is empty: call 'sudo rosdep init' and 'rosdep update'
+BR: [INFO] [WallTime: 1493006839.649727] Rosbridge WebSocket server started on port 48702
+BR: [INFO] [WallTime: 1493006842.341395] Client connected.  1 clients total.
+BR: the rosdep view is empty: call 'sudo rosdep init' and 'rosdep update'
+BR: [INFO] [WallTime: 1493006842.457507] [Client 0] Subscribed to /tf2_web_republisher/feedback
+BR: [INFO] [WallTime: 1493006842.468802] [Client 0] Subscribed to /visualization_marker
+PUB: [31m[ERROR] [1493006843.209334162]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006843.308666230]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006843.409377895]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006843.508599721]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006843.609281273]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006843.709686486]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006843.809389229]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006843.908670931]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.009362264]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.205691157]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.205755599]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.306115759]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.306177791]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.405867595]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.405920378]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.505204971]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.505314146]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.605996420]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.606057206]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.705483951]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.705543445]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.806154138]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.806203334]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.905521641]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006844.905576036]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.006213060]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.006268101]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.202348264]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.202422499]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.202487124]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.302917741]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.302960972]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.302991287]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.402345189]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.402381789]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.402428629]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.502812720]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.502869596]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.502916612]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.602376979]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.602433937]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.602476566]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.702898168]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.702992664]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.703036083]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.802417247]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.802518990]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.802603916]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.902974858]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.903033163]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006845.903083416]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.002529025]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.002591210]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.002634086]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.103054724]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.103116119]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.103164902]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.202663145]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.202768843]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.202844644]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.302112749]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.302176327]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.302216484]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.402639337]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.402697386]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.402743313]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.503071233]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.503127237]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.503172202]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.602562995]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.602620457]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.602659771]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.702986251]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.703041017]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.703084861]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.802529400]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.802565666]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.802610844]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.903020553]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.903128348]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006846.903222230]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.002735117]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.002842586]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.002911105]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.102159684]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.102225490]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.102272180]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.202629034]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.202681878]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.202726299]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.303069293]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.303125731]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.303170338]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.402565701]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.402620969]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.402665296]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.502986084]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.503039292]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.503086437]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.602470275]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.602521897]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.602563436]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.702916262]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.702975471]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.703024724]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.802507572]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.802582931]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.802629339]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.902973457]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.903027649]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006847.903075033]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.002440879]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.002496197]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.002539639]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.102922971]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.102987213]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.103033467]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.202394116]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.202447369]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.202491454]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.302844831]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.302904575]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.302953256]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.402359757]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.402420060]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.402466598]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.502830762]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.502884995]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.502930083]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.602337873]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.602396441]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.602441930]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.702748674]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.702806007]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.702867902]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.802243611]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.802292869]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.802337006]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.902644068]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.902695459]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006848.902754751]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.002067133]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.002118027]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.002175148]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.102560852]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.102626894]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.102676320]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.203038859]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.203087768]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.203153825]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.302505168]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.302560081]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.302604947]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.403142788]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.403185657]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.403230904]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.502567885]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.502607695]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.502653779]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.603050606]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.603093419]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.603137177]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.702455531]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.702493415]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.702540967]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.802955593]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.803000679]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.803032150]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.902465938]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.902541746]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006849.902579599]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.002957187]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.002996318]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.003042121]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.102442218]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.102509279]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.102552463]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.202938931]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.203000462]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.203047096]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.302398071]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.302459466]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.302501403]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.402986744]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.403042634]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.403089227]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.502421104]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.502462951]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.502511980]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.602968208]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.603013322]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.603047974]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.702407232]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.702457262]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.702494902]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.802867720]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.802907389]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.802949282]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.902277775]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.902320327]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006850.902365613]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.002857893]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.002937578]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.003004708]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.102379021]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.102442900]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.102486294]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.202881747]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.202923875]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.202974165]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.302349929]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.302408266]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.302454332]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.402842357]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.402881691]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.402929195]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.502288170]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.502346774]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.502390455]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.602918841]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.603043467]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.603088755]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.702442782]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.702497773]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.702538807]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.802941077]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.802997761]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.803039178]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.902402586]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.902466702]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006851.902508898]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.002880997]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.002934991]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.002979675]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.102363043]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.102412706]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.102458384]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.202962164]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.203016550]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.203060499]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.302462989]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.302546095]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.302611865]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.402991837]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.403029365]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.403071384]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.502408534]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.502462733]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.502503684]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.602881323]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.602940523]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.602982680]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.702384395]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.702463595]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.702512252]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.802856592]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.802913717]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.802952217]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.902344119]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.902406284]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006852.902453865]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006853.002842463]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006853.002897584]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006853.002940059]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006853.102324158]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006853.102387784]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006853.102424158]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006853.202768964]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006853.202821074]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006853.202863324]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006853.302141698]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006853.302214038]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006853.302259293]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006853.402639455]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006853.402694685]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006853.402737948]: "base_frame" passed to lookupTransform argument target_frame does not exist. [0m
+PUB: [31m[ERROR] [1493006853.503119291]: Lookup would require extrapolation at time 1493006853.470052957, but only time 1493006853.470541000 is in the buffer, when looking up transform from frame [camera_frame] to frame [base_frame][0m

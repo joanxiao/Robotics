@@ -1,0 +1,62 @@
+[rospy.client][INFO] 2017-06-05 17:20:07,433: init_node, name[/cartesian_control_21713_1496708407399], pid[21713]
+[xmlrpc][INFO] 2017-06-05 17:20:07,433: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-05 17:20:07,437: Started XML-RPC server [http://ip-172-31-26-229:33754/]
+[rospy.init][INFO] 2017-06-05 17:20:07,437: ROS Slave URI: [http://ip-172-31-26-229:33754/]
+[rospy.impl.masterslave][INFO] 2017-06-05 17:20:07,440: _ready: http://ip-172-31-26-229:33754/
+[xmlrpc][INFO] 2017-06-05 17:20:07,447: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-06-05 17:20:07,447: Registering with master node http://localhost:46002
+[rospy.init][INFO] 2017-06-05 17:20:07,544: registered with master
+[rospy.rosout][INFO] 2017-06-05 17:20:07,547: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-05 17:20:07,556: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-05 17:20:07,561: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-06-05 17:20:07,622: topic[/joint_states] adding connection to [http://ip-172-31-26-229:38889/], count 0
+[rospy.internal][INFO] 2017-06-05 17:20:07,833: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-06-05 17:20:07,841: topic[/joint_command] adding connection to [/robot_sim], count 0
+[rospy.internal][INFO] 2017-06-05 17:20:07,847: topic[/control_markers/update] adding connection to [/interactive_marker_proxy], count 0
+[rospy.internal][INFO] 2017-06-05 17:20:08,047: topic[/control_markers/update_full] adding connection to [/interactive_marker_proxy], count 0
+[rospy.internal][INFO] 2017-06-05 17:20:08,087: topic[/control_markers/update_full] removing connection to /interactive_marker_proxy
+[rospy.internal][INFO] 2017-06-05 17:20:20,089: topic[/control_markers/feedback] adding connection to [http://ip-172-31-26-229:48743/], count 0
+[rospy.internal][INFO] 2017-06-05 17:29:02,507: topic[/cartesian_command] adding connection to [/cartesian_control_23572_1496708942273], count 0
+[rospy.internal][INFO] 2017-06-05 17:29:02,511: topic[/redundancy_command] adding connection to [/cartesian_control_23572_1496708942273], count 0
+[rospy.internal][INFO] 2017-06-05 17:30:01,440: topic[/tf] adding connection to [http://ip-172-31-26-229:38984/], count 0
+[rosout][WARNING] 2017-06-05 17:30:42,618: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2017-06-05 17:30:42,620: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2017-06-05 17:31:41,802: topic[/redundancy_command] adding connection to [/cartesian_control_24093_1496709101569], count 1
+[rospy.internal][INFO] 2017-06-05 17:31:41,808: topic[/cartesian_command] adding connection to [/cartesian_control_24093_1496709101569], count 1
+[rospy.internal][INFO] 2017-06-05 17:31:41,812: topic[/cartesian_command] removing connection to /cartesian_control_23572_1496708942273
+[rosout][WARNING] 2017-06-05 17:32:02,932: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2017-06-05 17:32:02,933: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2017-06-05 17:35:18,337: topic[/redundancy_command] adding connection to [/cartesian_control_24864_1496709318101], count 2
+[rospy.internal][INFO] 2017-06-05 17:35:18,339: topic[/cartesian_command] adding connection to [/cartesian_control_24864_1496709318101], count 1
+[rospy.internal][ERROR] 2017-06-05 17:35:30,742: Unable to initiate TCP/IP socket to ip-172-31-26-229:52597 (http://ip-172-31-26-229:48743/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: Internal error processing topic [/control_markers/feedback]
+
+[rospy.internal][ERROR] 2017-06-05 17:35:31,748: Unable to initiate TCP/IP socket to ip-172-31-26-229:52597 (http://ip-172-31-26-229:48743/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: [/rosbridge_websocket] is not a publisher of [/control_markers/feedback]. Topics are [['/rosout', 'rosgraph_msgs/Log']]
+

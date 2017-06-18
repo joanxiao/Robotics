@@ -1,0 +1,36 @@
+[rospy.client][INFO] 2017-06-10 16:28:50,138: init_node, name[/move_arm_15269_1497137330081], pid[15269]
+[xmlrpc][INFO] 2017-06-10 16:28:50,138: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-10 16:28:50,142: Started XML-RPC server [http://ip-172-31-19-100:55573/]
+[rospy.impl.masterslave][INFO] 2017-06-10 16:28:50,146: _ready: http://ip-172-31-19-100:55573/
+[rospy.init][INFO] 2017-06-10 16:28:50,142: ROS Slave URI: [http://ip-172-31-19-100:55573/]
+[xmlrpc][INFO] 2017-06-10 16:28:50,151: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-06-10 16:28:50,151: Registering with master node http://localhost:36505
+[rospy.init][INFO] 2017-06-10 16:28:50,255: registered with master
+[rospy.rosout][INFO] 2017-06-10 16:28:50,258: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-10 16:28:50,275: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-10 16:28:50,281: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-06-10 16:28:50,557: topic[/motion_planning_goal] adding connection to [http://ip-172-31-19-100:52813/], count 0
+[rospy.internal][INFO] 2017-06-10 16:28:50,557: topic[/joint_states] adding connection to [http://ip-172-31-19-100:49985/], count 0
+[rospy.internal][INFO] 2017-06-10 16:28:50,558: topic[/joint_trajectory] adding connection to [/marker_control_29845_1497135347175], count 0
+[rospy.internal][INFO] 2017-06-10 16:28:51,560: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-06-10 16:28:51,569: topic[/joint_trajectory] adding connection to [/robot_sim], count 1
+[rospy.internal][INFO] 2017-06-10 16:28:51,587: topic[/collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-10 16:28:51,592: topic[/attached_collision_object] adding connection to [/move_group], count 0
+[rospy.core][INFO] 2017-06-10 16:30:15,310: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-06-10 16:30:15,345: topic[/collision_object] removing connection to /move_group
+[rospy.internal][INFO] 2017-06-10 16:30:15,351: topic[/joint_trajectory] removing connection to /marker_control_29845_1497135347175
+[rospy.internal][INFO] 2017-06-10 16:30:15,354: topic[/joint_trajectory] removing connection to /robot_sim
+[rospy.internal][INFO] 2017-06-10 16:30:15,357: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-06-10 16:30:15,361: topic[/attached_collision_object] removing connection to /move_group
+[rospy.internal][INFO] 2017-06-10 16:30:15,365: topic[/motion_planning_goal] removing connection to http://ip-172-31-19-100:52813/
+[rospy.internal][INFO] 2017-06-10 16:30:15,369: topic[/joint_states] removing connection to http://ip-172-31-19-100:49985/
+[rospy.internal][ERROR] 2017-06-10 16:30:15,369: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 698, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.impl.masterslave][INFO] 2017-06-10 16:30:15,373: signal-2
+[rospy.core][INFO] 2017-06-10 16:30:15,972: signal_shutdown [signal-2]
+[rospy.core][INFO] 2017-06-10 16:30:15,977: signal_shutdown [atexit]

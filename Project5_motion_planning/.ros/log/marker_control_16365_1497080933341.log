@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2017-06-10 00:48:53,396: init_node, name[/marker_control_16365_1497080933341], pid[16365]
+[xmlrpc][INFO] 2017-06-10 00:48:53,396: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-10 00:48:53,400: Started XML-RPC server [http://ip-172-31-26-229:40392/]
+[rospy.init][INFO] 2017-06-10 00:48:53,401: ROS Slave URI: [http://ip-172-31-26-229:40392/]
+[rospy.impl.masterslave][INFO] 2017-06-10 00:48:53,404: _ready: http://ip-172-31-26-229:40392/
+[xmlrpc][INFO] 2017-06-10 00:48:53,412: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-06-10 00:48:53,413: Registering with master node http://localhost:59149
+[rospy.init][INFO] 2017-06-10 00:48:53,508: registered with master
+[rospy.rosout][INFO] 2017-06-10 00:48:53,511: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-10 00:48:53,524: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-10 00:48:53,529: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-06-10 00:48:53,793: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-06-10 00:48:53,804: topic[/control_markers/update] adding connection to [/interactive_marker_proxy], count 0
+[rospy.internal][INFO] 2017-06-10 00:48:53,823: topic[/collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-10 00:48:53,827: topic[/attached_collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-10 00:48:54,206: topic[/control_markers/update_full] adding connection to [/interactive_marker_proxy], count 0
+[rospy.internal][INFO] 2017-06-10 00:48:56,689: topic[/visualization_marker_array] adding connection to [/rosbridge_websocket], count 0
+[rospy.internal][INFO] 2017-06-10 00:48:56,767: topic[/control_markers/feedback] adding connection to [http://ip-172-31-26-229:57878/], count 0
+[rospy.internal][INFO] 2017-06-10 00:49:07,657: topic[/joint_trajectory] adding connection to [http://ip-172-31-26-229:49152/], count 0
+[rospy.internal][INFO] 2017-06-10 00:49:08,533: topic[/motion_planning_goal] adding connection to [/move_arm_17281_1497080947240], count 0

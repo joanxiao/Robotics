@@ -1,0 +1,38 @@
+[rospy.client][INFO] 2017-06-05 17:31:41,604: init_node, name[/cartesian_control_24093_1496709101569], pid[24093]
+[xmlrpc][INFO] 2017-06-05 17:31:41,605: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-05 17:31:41,609: Started XML-RPC server [http://ip-172-31-26-229:53554/]
+[rospy.init][INFO] 2017-06-05 17:31:41,609: ROS Slave URI: [http://ip-172-31-26-229:53554/]
+[rospy.impl.masterslave][INFO] 2017-06-05 17:31:41,612: _ready: http://ip-172-31-26-229:53554/
+[xmlrpc][INFO] 2017-06-05 17:31:41,619: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-06-05 17:31:41,619: Registering with master node http://localhost:46002
+[rospy.init][INFO] 2017-06-05 17:31:41,716: registered with master
+[rospy.rosout][INFO] 2017-06-05 17:31:41,719: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-05 17:31:41,726: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-05 17:31:41,730: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-06-05 17:31:41,794: topic[/joint_states] adding connection to [http://ip-172-31-26-229:38889/], count 0
+[rospy.internal][INFO] 2017-06-05 17:31:41,795: topic[/redundancy_command] adding connection to [http://ip-172-31-26-229:33754/], count 0
+[rospy.internal][INFO] 2017-06-05 17:31:41,797: topic[/cartesian_command] adding connection to [http://ip-172-31-26-229:33754/], count 0
+[rospy.internal][INFO] 2017-06-05 17:31:41,919: topic[/joint_velocities] adding connection to [/robot_sim], count 0
+[rospy.internal][INFO] 2017-06-05 17:31:41,939: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2017-06-05 17:32:02,298: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-06-05 17:32:02,321: topic[/joint_velocities] removing connection to /robot_sim
+[rospy.internal][INFO] 2017-06-05 17:32:02,324: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-06-05 17:32:02,328: topic[/redundancy_command] removing connection to http://ip-172-31-26-229:33754/
+[rospy.internal][WARNING] 2017-06-05 17:32:02,329: Unknown error initiating TCP/IP socket to ip-172-31-26-229:56437 (http://ip-172-31-26-229:33754/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2017-06-05 17:32:02,332: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2017-06-05 17:32:02,338: topic[/joint_states] removing connection to http://ip-172-31-26-229:38889/
+[rospy.internal][INFO] 2017-06-05 17:32:02,341: topic[/cartesian_command] removing connection to http://ip-172-31-26-229:33754/
+[rospy.impl.masterslave][INFO] 2017-06-05 17:32:02,345: signal-2
+[rospy.core][INFO] 2017-06-05 17:32:02,913: signal_shutdown [atexit]

@@ -1,0 +1,24 @@
+[rospy.client][INFO] 2017-06-05 17:43:06,450: init_node, name[/cartesian_control_25384_1496709786403], pid[25384]
+[xmlrpc][INFO] 2017-06-05 17:43:06,450: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-05 17:43:06,454: Started XML-RPC server [http://ip-172-31-19-100:56296/]
+[rospy.impl.masterslave][INFO] 2017-06-05 17:43:06,459: _ready: http://ip-172-31-19-100:56296/
+[rospy.init][INFO] 2017-06-05 17:43:06,454: ROS Slave URI: [http://ip-172-31-19-100:56296/]
+[xmlrpc][INFO] 2017-06-05 17:43:06,463: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-06-05 17:43:06,463: Registering with master node http://localhost:52855
+[rospy.init][INFO] 2017-06-05 17:43:06,566: registered with master
+[rospy.rosout][INFO] 2017-06-05 17:43:06,570: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-05 17:43:06,581: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-05 17:43:06,587: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-06-05 17:43:06,643: topic[/joint_states] adding connection to [http://ip-172-31-19-100:37610/], count 0
+[rospy.internal][INFO] 2017-06-05 17:43:06,646: topic[/redundancy_command] adding connection to [http://ip-172-31-19-100:36908/], count 0
+[rospy.internal][INFO] 2017-06-05 17:43:06,647: topic[/cartesian_command] adding connection to [http://ip-172-31-19-100:36908/], count 0
+[rospy.internal][INFO] 2017-06-05 17:43:06,828: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-06-05 17:43:06,832: topic[/joint_velocities] adding connection to [/robot_sim], count 0
+[rospy.core][INFO] 2017-06-05 18:41:28,583: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-06-05 18:41:28,611: topic[/joint_velocities] removing connection to /robot_sim
+[rospy.internal][INFO] 2017-06-05 18:41:28,615: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-06-05 18:41:28,618: topic[/redundancy_command] removing connection to http://ip-172-31-19-100:36908/
+[rospy.internal][INFO] 2017-06-05 18:41:28,622: topic[/joint_states] removing connection to http://ip-172-31-19-100:37610/
+[rospy.internal][INFO] 2017-06-05 18:41:28,626: topic[/cartesian_command] removing connection to http://ip-172-31-19-100:36908/
+[rospy.impl.masterslave][INFO] 2017-06-05 18:41:28,629: signal-2
+[rospy.core][INFO] 2017-06-05 18:41:28,733: signal_shutdown [atexit]

@@ -1,0 +1,25 @@
+
+
+1496985206.777828122  Node Startup
+1496985209.350580930 INFO [rosapi_node:184(<module>) [topics: /rosout] Rosapi started
+1496985209.282280092 INFO [/tmp/binarydeb/ros-indigo-interactive-marker-proxy-0.1.2/src/proxy.cpp:143(statusCb) [topics: /rosout] (INFO) General: Waiting for messages.
+1496985209.345277070 INFO [rosbridge_websocket:141(<module>) [topics: /rosout] Rosbridge WebSocket server started on port 40589
+1496985210.500773673 INFO [/home/ccc_v1_w_dd4cc_18220/asn13354_Project_4/asn13355_Project_4/work/catkin_ws/src/robot_sim/src/robot_sim_bringup.cpp:93(main) [topics: /rosout, /joint_states] Simulated robot spinning
+1496985211.433477987 WARN [/tmp/binarydeb/ros-indigo-kdl-parser-1.11.11/src/kdl_parser.cpp:196(treeFromUrdfModel) [topics: /rosout] The root link world_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+1496985213.407647793 INFO [/tmp/binarydeb/ros-indigo-interactive-marker-proxy-0.1.2/src/proxy.cpp:143(statusCb) [topics: /rosout, /control_markers/tunneled/update] (INFO) General: Receiving messages.
+1496985213.407689311 INFO [/tmp/binarydeb/ros-indigo-interactive-marker-proxy-0.1.2/src/proxy.cpp:143(statusCb) [topics: /rosout, /control_markers/tunneled/update] (INFO) /cartesian_control_7085_1496985212896: Waiting for init message.
+1496985213.602107203 INFO [/tmp/binarydeb/ros-indigo-interactive-marker-proxy-0.1.2/src/proxy.cpp:143(statusCb) [topics: /rosout, /control_markers/tunneled/update] (INFO) /cartesian_control_7085_1496985212896: Init message received.
+1496985213.630151757 INFO [/tmp/binarydeb/ros-indigo-interactive-marker-proxy-0.1.2/src/proxy.cpp:143(statusCb) [topics: /rosout, /control_markers/tunneled/update] (INFO) /cartesian_control_7085_1496985212896: Receiving updates.
+1496985213.663619793 INFO [/tmp/binarydeb/ros-indigo-interactive-marker-proxy-0.1.2/src/proxy.cpp:143(statusCb) [topics: /rosout, /control_markers/tunneled/update] (INFO) /cartesian_control_7085_1496985212896: OK
+1496985304.684398889 INFO [websocket_handler.py:74(open) [topics: /rosout] Client connected.  1 clients total.
+1496985304.824048042 INFO [protocol.py:367(log) [topics: /tf2_web_republisher/cancel, /tf2_web_republisher/goal, /rosout, /tf2_web_republisher/feedback] [Client 0] Subscribed to /tf2_web_republisher/feedback
+1496985304.840832948 INFO [protocol.py:367(log) [topics: /tf2_web_republisher/cancel, /tf2_web_republisher/goal, /control_markers/tunneled/update, /rosout, /tf2_web_republisher/feedback] [Client 0] Subscribed to /control_markers/tunneled/update
+1496985304.869167575 INFO [/tmp/binarydeb/ros-indigo-interactive-marker-proxy-0.1.2/src/proxy.cpp:89(getInit) [topics: /rosout, /control_markers/tunneled/update] Init requested.
+1496985304.994735956 INFO [protocol.py:367(log) [topics: /control_markers/feedback, /tf2_web_republisher/feedback, /rosout, /control_markers/tunneled/update, /tf2_web_republisher/cancel, /tf2_web_republisher/goal] [Client 0] Subscribed to /tf2_web_republisher/feedback
+1496985305.000771045 INFO [protocol.py:367(log) [topics: /control_markers/feedback, /tf2_web_republisher/feedback, /rosout, /control_markers/tunneled/update, /tf2_web_republisher/cancel, /tf2_web_republisher/goal] [Client 0] Subscribed to /tf2_web_republisher/feedback
+1496985305.006489038 INFO [protocol.py:367(log) [topics: /control_markers/feedback, /tf2_web_republisher/feedback, /rosout, /control_markers/tunneled/update, /tf2_web_republisher/cancel, /tf2_web_republisher/goal] [Client 0] Subscribed to /tf2_web_republisher/feedback
+1496985305.010724067 INFO [protocol.py:367(log) [topics: /control_markers/feedback, /tf2_web_republisher/feedback, /rosout, /control_markers/tunneled/update, /tf2_web_republisher/cancel, /tf2_web_republisher/goal] [Client 0] Subscribed to /tf2_web_republisher/feedback
+1496985305.014748096 INFO [protocol.py:367(log) [topics: /control_markers/feedback, /tf2_web_republisher/feedback, /rosout, /control_markers/tunneled/update, /tf2_web_republisher/cancel, /tf2_web_republisher/goal] [Client 0] Subscribed to /tf2_web_republisher/feedback
+1496985305.018954038 INFO [protocol.py:367(log) [topics: /control_markers/feedback, /tf2_web_republisher/feedback, /rosout, /control_markers/tunneled/update, /tf2_web_republisher/cancel, /tf2_web_republisher/goal] [Client 0] Subscribed to /tf2_web_republisher/feedback
+1496985305.025175094 INFO [protocol.py:367(log) [topics: /control_markers/feedback, /tf2_web_republisher/feedback, /rosout, /control_markers/tunneled/update, /tf2_web_republisher/cancel, /tf2_web_republisher/goal] [Client 0] Subscribed to /tf2_web_republisher/feedback
+1496985305.029377937 INFO [protocol.py:367(log) [topics: /control_markers/feedback, /tf2_web_republisher/feedback, /rosout, /control_markers/tunneled/update, /tf2_web_republisher/cancel, /tf2_web_republisher/goal] [Client 0] Subscribed to /tf2_web_republisher/feedback

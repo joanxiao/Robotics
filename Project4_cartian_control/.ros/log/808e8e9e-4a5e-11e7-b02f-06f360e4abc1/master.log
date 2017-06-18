@@ -1,0 +1,184 @@
+[rosmaster.main][INFO] 2017-06-05 19:19:00,675: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-06-05 19:19:00,675: Starting ROS Master Node
+[xmlrpc][INFO] 2017-06-05 19:19:00,680: XML-RPC server binding to 0.0.0.0:43106
+[xmlrpc][INFO] 2017-06-05 19:19:00,684: Started XML-RPC server [http://ip-172-31-19-100:43106/]
+[rosmaster.master][INFO] 2017-06-05 19:19:00,684: Master initialized: port[43106], uri[http://ip-172-31-19-100:43106/]
+[xmlrpc][INFO] 2017-06-05 19:19:00,687: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-06-05 19:19:00,763: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-06-05 19:19:00,772: +PARAM [/roslaunch/uris/host_ip_172_31_19_100__34459] by /roslaunch
+[rosmaster.master][INFO] 2017-06-05 19:19:00,866: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-06-05 19:19:00,869: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-06-05 19:19:00,885: +SERVICE [/rosout/get_loggers] /rosout http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:19:00,890: +SERVICE [/rosout/set_logger_level] /rosout http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:19:00,896: +PUB [/rosout_agg] /rosout http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:19:00,905: +SUB [/rosout] /rosout http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:19:01,237: +PUB [/rosout] /tf2_web_republisher http://ip-172-31-19-100:46901/
+[rosmaster.master][INFO] 2017-06-05 19:19:01,241: +SERVICE [/tf2_web_republisher/get_loggers] /tf2_web_republisher http://ip-172-31-19-100:46901/
+[rosmaster.master][INFO] 2017-06-05 19:19:01,245: +SERVICE [/tf2_web_republisher/set_logger_level] /tf2_web_republisher http://ip-172-31-19-100:46901/
+[rosmaster.master][INFO] 2017-06-05 19:19:01,261: +SUB [/tf] /tf2_web_republisher http://ip-172-31-19-100:46901/
+[rosmaster.master][INFO] 2017-06-05 19:19:01,268: +SUB [/tf_static] /tf2_web_republisher http://ip-172-31-19-100:46901/
+[rosmaster.master][INFO] 2017-06-05 19:19:01,273: +SERVICE [/republish_tfs] /tf2_web_republisher http://ip-172-31-19-100:46901/
+[rosmaster.master][INFO] 2017-06-05 19:19:01,277: +PUB [/tf2_web_republisher/result] /tf2_web_republisher http://ip-172-31-19-100:46901/
+[rosmaster.master][INFO] 2017-06-05 19:19:01,280: publisherUpdate[/rosout] -> http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:19:01,282: +PUB [/tf2_web_republisher/feedback] /tf2_web_republisher http://ip-172-31-19-100:46901/
+[rosmaster.master][INFO] 2017-06-05 19:19:01,289: +PUB [/tf2_web_republisher/status] /tf2_web_republisher http://ip-172-31-19-100:46901/
+[rosmaster.master][INFO] 2017-06-05 19:19:01,299: +SUB [/tf2_web_republisher/goal] /tf2_web_republisher http://ip-172-31-19-100:46901/
+[rosmaster.master][INFO] 2017-06-05 19:19:01,306: +SUB [/tf2_web_republisher/cancel] /tf2_web_republisher http://ip-172-31-19-100:46901/
+[rosmaster.master][INFO] 2017-06-05 19:19:02,720: +PARAM [/roslaunch/uris/host_ip_172_31_19_100__45867] by /roslaunch
+[rosmaster.master][INFO] 2017-06-05 19:19:02,727: +PARAM [/rosbridge_websocket/port] by /roslaunch
+[rosmaster.master][INFO] 2017-06-05 19:19:02,730: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-06-05 19:19:02,734: +PARAM [/rosbridge_websocket/fragment_timeout] by /roslaunch
+[rosmaster.master][INFO] 2017-06-05 19:19:02,737: +PARAM [/rosbridge_websocket/delay_between_messages] by /roslaunch
+[rosmaster.master][INFO] 2017-06-05 19:19:02,741: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-06-05 19:19:02,744: +PARAM [/rosbridge_websocket/authenticate] by /roslaunch
+[rosmaster.master][INFO] 2017-06-05 19:19:02,748: +PARAM [/rosbridge_websocket/retry_startup_delay] by /roslaunch
+[rosmaster.master][INFO] 2017-06-05 19:19:02,752: +PARAM [/rosbridge_websocket/address] by /roslaunch
+[rosmaster.master][INFO] 2017-06-05 19:19:02,755: +PARAM [/rosbridge_websocket/max_message_size] by /roslaunch
+[rosmaster.master][INFO] 2017-06-05 19:19:03,321: +PUB [/rosout] /interactive_marker_proxy http://ip-172-31-19-100:44071/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,325: +SERVICE [/interactive_marker_proxy/get_loggers] /interactive_marker_proxy http://ip-172-31-19-100:44071/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,330: +SERVICE [/interactive_marker_proxy/set_logger_level] /interactive_marker_proxy http://ip-172-31-19-100:44071/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,340: +SUB [/tf] /interactive_marker_proxy http://ip-172-31-19-100:44071/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,344: +PUB [/rosout] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,350: +SUB [/tf_static] /interactive_marker_proxy http://ip-172-31-19-100:44071/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,359: +SUB [/control_markers/update] /interactive_marker_proxy http://ip-172-31-19-100:44071/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,362: +SERVICE [/rosapi/get_loggers] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,367: +SUB [/control_markers/update_full] /interactive_marker_proxy http://ip-172-31-19-100:44071/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,370: +SERVICE [/rosapi/set_logger_level] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,375: +SERVICE [/rosapi/topics] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,379: +PUB [/control_markers/tunneled/update] /interactive_marker_proxy http://ip-172-31-19-100:44071/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,384: +SERVICE [/rosapi/topics_for_type] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,385: publisherUpdate[/rosout] -> http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,387: +SERVICE [/control_markers/tunneled/get_init] /interactive_marker_proxy http://ip-172-31-19-100:44071/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,392: publisherUpdate[/rosout] -> http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,395: +SERVICE [/rosapi/services] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,404: +SERVICE [/rosapi/services_for_type] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,415: +SERVICE [/rosapi/nodes] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,419: +SERVICE [/rosapi/node_details] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,424: +SERVICE [/rosapi/topic_type] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,428: +SERVICE [/rosapi/service_type] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,433: -SUB [/control_markers/update_full] /interactive_marker_proxy http://ip-172-31-19-100:44071/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,436: +SERVICE [/rosapi/publishers] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,441: +SERVICE [/rosapi/subscribers] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,445: +SERVICE [/rosapi/service_providers] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,450: +SERVICE [/rosapi/service_node] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,455: +SERVICE [/rosapi/service_host] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,459: +SERVICE [/rosapi/message_details] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,464: +SERVICE [/rosapi/service_request_details] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,468: +PUB [/rosout] /rosbridge_websocket http://ip-172-31-19-100:36325/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,471: +SERVICE [/rosapi/service_response_details] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,476: +SERVICE [/rosapi/set_param] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,481: +SERVICE [/rosapi/get_param] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,484: +SERVICE [/rosbridge_websocket/get_loggers] /rosbridge_websocket http://ip-172-31-19-100:36325/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,486: publisherUpdate[/rosout] -> http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,488: +SERVICE [/rosapi/has_param] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,495: +SERVICE [/rosbridge_websocket/set_logger_level] /rosbridge_websocket http://ip-172-31-19-100:36325/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,498: +SERVICE [/rosapi/search_param] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,505: +SERVICE [/rosapi/delete_param] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,510: +SERVICE [/rosapi/get_param_names] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:03,523: +SERVICE [/rosapi/get_time] /rosapi http://ip-172-31-19-100:46495/
+[rosmaster.master][INFO] 2017-06-05 19:19:04,073: +PARAM [/robot_description] by /rosparam-1567
+[rosmaster.master][INFO] 2017-06-05 19:19:04,272: +PUB [/rosout] /robot_sim http://ip-172-31-19-100:53273/
+[rosmaster.master][INFO] 2017-06-05 19:19:04,277: +SERVICE [/robot_sim/get_loggers] /robot_sim http://ip-172-31-19-100:53273/
+[rosmaster.master][INFO] 2017-06-05 19:19:04,282: +SERVICE [/robot_sim/set_logger_level] /robot_sim http://ip-172-31-19-100:53273/
+[rosmaster.master][INFO] 2017-06-05 19:19:04,290: +PUB [/joint_states] /robot_sim http://ip-172-31-19-100:53273/
+[rosmaster.master][INFO] 2017-06-05 19:19:04,294: publisherUpdate[/rosout] -> http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:19:04,298: +SUB [/joint_velocities] /robot_sim http://ip-172-31-19-100:53273/
+[rosmaster.master][INFO] 2017-06-05 19:19:04,306: +SUB [/joint_positions] /robot_sim http://ip-172-31-19-100:53273/
+[rosmaster.master][INFO] 2017-06-05 19:19:04,314: +SUB [/joint_command] /robot_sim http://ip-172-31-19-100:53273/
+[rosmaster.master][INFO] 2017-06-05 19:19:05,236: +PUB [/rosout] /robot_state_publisher http://ip-172-31-19-100:48206/
+[rosmaster.master][INFO] 2017-06-05 19:19:05,240: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://ip-172-31-19-100:48206/
+[rosmaster.master][INFO] 2017-06-05 19:19:05,250: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://ip-172-31-19-100:48206/
+[rosmaster.master][INFO] 2017-06-05 19:19:05,258: +PUB [/tf] /robot_state_publisher http://ip-172-31-19-100:48206/
+[rosmaster.master][INFO] 2017-06-05 19:19:05,263: +PUB [/tf_static] /robot_state_publisher http://ip-172-31-19-100:48206/
+[rosmaster.master][INFO] 2017-06-05 19:19:05,273: +SUB [/joint_states] /robot_state_publisher http://ip-172-31-19-100:48206/
+[rosmaster.master][INFO] 2017-06-05 19:19:05,296: publisherUpdate[/rosout] -> http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:19:05,301: publisherUpdate[/tf] -> http://ip-172-31-19-100:46901/
+[rosmaster.master][INFO] 2017-06-05 19:19:05,301: publisherUpdate[/tf] -> http://ip-172-31-19-100:44071/
+[rosmaster.master][INFO] 2017-06-05 19:19:05,307: publisherUpdate[/tf_static] -> http://ip-172-31-19-100:46901/
+[rosmaster.master][INFO] 2017-06-05 19:19:05,311: publisherUpdate[/tf_static] -> http://ip-172-31-19-100:44071/
+[rosmaster.master][INFO] 2017-06-05 19:19:06,898: +PUB [/rosout] /cartesian_control_1692_1496715546738 http://ip-172-31-19-100:53744/
+[rosmaster.master][INFO] 2017-06-05 19:19:06,905: publisherUpdate[/rosout] -> http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:19:06,911: +SERVICE [/cartesian_control_1692_1496715546738/get_loggers] /cartesian_control_1692_1496715546738 http://ip-172-31-19-100:53744/
+[rosmaster.master][INFO] 2017-06-05 19:19:06,916: +SERVICE [/cartesian_control_1692_1496715546738/set_logger_level] /cartesian_control_1692_1496715546738 http://ip-172-31-19-100:53744/
+[rosmaster.master][INFO] 2017-06-05 19:19:06,928: +PUB [/cartesian_command] /cartesian_control_1692_1496715546738 http://ip-172-31-19-100:53744/
+[rosmaster.master][INFO] 2017-06-05 19:19:06,932: +PUB [/redundancy_command] /cartesian_control_1692_1496715546738 http://ip-172-31-19-100:53744/
+[rosmaster.master][INFO] 2017-06-05 19:19:06,937: +PUB [/joint_command] /cartesian_control_1692_1496715546738 http://ip-172-31-19-100:53744/
+[rosmaster.master][INFO] 2017-06-05 19:19:06,942: +PUB [/control_markers/update_full] /cartesian_control_1692_1496715546738 http://ip-172-31-19-100:53744/
+[rosmaster.master][INFO] 2017-06-05 19:19:06,946: +PUB [/control_markers/update] /cartesian_control_1692_1496715546738 http://ip-172-31-19-100:53744/
+[rosmaster.master][INFO] 2017-06-05 19:19:06,955: +SUB [/control_markers/feedback] /cartesian_control_1692_1496715546738 http://ip-172-31-19-100:53744/
+[rosmaster.master][INFO] 2017-06-05 19:19:06,961: +SUB [/joint_states] /cartesian_control_1692_1496715546738 http://ip-172-31-19-100:53744/
+[rosmaster.master][INFO] 2017-06-05 19:19:07,010: publisherUpdate[/joint_command] -> http://ip-172-31-19-100:53273/
+[rosmaster.master][INFO] 2017-06-05 19:19:07,015: publisherUpdate[/control_markers/update] -> http://ip-172-31-19-100:44071/
+[rosmaster.master][INFO] 2017-06-05 19:19:07,231: +SUB [/control_markers/update_full] /interactive_marker_proxy http://ip-172-31-19-100:44071/
+[rosmaster.master][INFO] 2017-06-05 19:19:07,430: -SUB [/control_markers/update_full] /interactive_marker_proxy http://ip-172-31-19-100:44071/
+[rosmaster.master][INFO] 2017-06-05 19:19:34,236: +PUB [/tf2_web_republisher/goal] /rosbridge_websocket http://ip-172-31-19-100:36325/
+[rosmaster.master][INFO] 2017-06-05 19:19:34,245: +PUB [/tf2_web_republisher/cancel] /rosbridge_websocket http://ip-172-31-19-100:36325/
+[rosmaster.master][INFO] 2017-06-05 19:19:34,252: +SUB [/tf2_web_republisher/feedback] /rosbridge_websocket http://ip-172-31-19-100:36325/
+[rosmaster.master][INFO] 2017-06-05 19:19:34,266: publisherUpdate[/tf2_web_republisher/goal] -> http://ip-172-31-19-100:46901/
+[rosmaster.master][INFO] 2017-06-05 19:19:34,274: +SUB [/control_markers/tunneled/update] /rosbridge_websocket http://ip-172-31-19-100:36325/
+[rosmaster.master][INFO] 2017-06-05 19:19:34,286: +PUB [/control_markers/feedback] /rosbridge_websocket http://ip-172-31-19-100:36325/
+[rosmaster.master][INFO] 2017-06-05 19:19:34,303: publisherUpdate[/tf2_web_republisher/cancel] -> http://ip-172-31-19-100:46901/
+[rosmaster.master][INFO] 2017-06-05 19:19:34,307: publisherUpdate[/control_markers/feedback] -> http://ip-172-31-19-100:53744/
+[rosmaster.master][INFO] 2017-06-05 19:19:56,952: +PUB [/rosout] /cartesian_control_2944_1496715596790 http://ip-172-31-19-100:53127/
+[rosmaster.master][INFO] 2017-06-05 19:19:56,956: publisherUpdate[/rosout] -> http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:19:56,962: +SERVICE [/cartesian_control_2944_1496715596790/get_loggers] /cartesian_control_2944_1496715596790 http://ip-172-31-19-100:53127/
+[rosmaster.master][INFO] 2017-06-05 19:19:56,967: +SERVICE [/cartesian_control_2944_1496715596790/set_logger_level] /cartesian_control_2944_1496715596790 http://ip-172-31-19-100:53127/
+[rosmaster.master][INFO] 2017-06-05 19:19:56,980: +SUB [/joint_states] /cartesian_control_2944_1496715596790 http://ip-172-31-19-100:53127/
+[rosmaster.master][INFO] 2017-06-05 19:19:56,986: +SUB [/cartesian_command] /cartesian_control_2944_1496715596790 http://ip-172-31-19-100:53127/
+[rosmaster.master][INFO] 2017-06-05 19:19:56,991: +SUB [/redundancy_command] /cartesian_control_2944_1496715596790 http://ip-172-31-19-100:53127/
+[rosmaster.master][INFO] 2017-06-05 19:19:56,996: +PUB [/joint_velocities] /cartesian_control_2944_1496715596790 http://ip-172-31-19-100:53127/
+[rosmaster.master][INFO] 2017-06-05 19:19:57,007: publisherUpdate[/joint_velocities] -> http://ip-172-31-19-100:53273/
+[rosmaster.master][INFO] 2017-06-05 19:20:15,388: -SUB [/redundancy_command] /cartesian_control_2944_1496715596790 http://ip-172-31-19-100:53127/
+[rosmaster.master][INFO] 2017-06-05 19:20:15,389: -SUB [/joint_states] /cartesian_control_2944_1496715596790 http://ip-172-31-19-100:53127/
+[rosmaster.master][INFO] 2017-06-05 19:20:15,393: -SUB [/cartesian_command] /cartesian_control_2944_1496715596790 http://ip-172-31-19-100:53127/
+[rosmaster.master][INFO] 2017-06-05 19:20:15,397: -PUB [/joint_velocities] /cartesian_control_2944_1496715596790 http://ip-172-31-19-100:53127/
+[rosmaster.master][INFO] 2017-06-05 19:20:15,397: publisherUpdate[/joint_velocities] -> http://ip-172-31-19-100:53273/
+[rosmaster.master][INFO] 2017-06-05 19:20:15,400: -PUB [/rosout] /cartesian_control_2944_1496715596790 http://ip-172-31-19-100:53127/
+[rosmaster.master][INFO] 2017-06-05 19:20:15,404: publisherUpdate[/rosout] -> http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:20:15,407: -SERVICE [/cartesian_control_2944_1496715596790/set_logger_level] /cartesian_control_2944_1496715596790 rosrpc://ip-172-31-19-100:48773
+[rosmaster.master][INFO] 2017-06-05 19:20:15,414: -SERVICE [/cartesian_control_2944_1496715596790/get_loggers] /cartesian_control_2944_1496715596790 rosrpc://ip-172-31-19-100:48773
+[rosmaster.master][INFO] 2017-06-05 19:25:45,405: +PUB [/rosout] /cartesian_control_9466_1496715945238 http://ip-172-31-19-100:54128/
+[rosmaster.master][INFO] 2017-06-05 19:25:45,412: publisherUpdate[/rosout] -> http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:25:45,415: +SERVICE [/cartesian_control_9466_1496715945238/get_loggers] /cartesian_control_9466_1496715945238 http://ip-172-31-19-100:54128/
+[rosmaster.master][INFO] 2017-06-05 19:25:45,420: +SERVICE [/cartesian_control_9466_1496715945238/set_logger_level] /cartesian_control_9466_1496715945238 http://ip-172-31-19-100:54128/
+[rosmaster.master][INFO] 2017-06-05 19:25:45,435: +SUB [/joint_states] /cartesian_control_9466_1496715945238 http://ip-172-31-19-100:54128/
+[rosmaster.master][INFO] 2017-06-05 19:25:45,444: +SUB [/cartesian_command] /cartesian_control_9466_1496715945238 http://ip-172-31-19-100:54128/
+[rosmaster.master][INFO] 2017-06-05 19:25:45,450: +SUB [/redundancy_command] /cartesian_control_9466_1496715945238 http://ip-172-31-19-100:54128/
+[rosmaster.master][INFO] 2017-06-05 19:25:45,454: +PUB [/joint_velocities] /cartesian_control_9466_1496715945238 http://ip-172-31-19-100:54128/
+[rosmaster.master][INFO] 2017-06-05 19:25:45,517: publisherUpdate[/joint_velocities] -> http://ip-172-31-19-100:53273/
+[rosmaster.master][INFO] 2017-06-05 19:27:08,986: -SUB [/redundancy_command] /cartesian_control_9466_1496715945238 http://ip-172-31-19-100:54128/
+[rosmaster.master][INFO] 2017-06-05 19:27:08,987: -SUB [/joint_states] /cartesian_control_9466_1496715945238 http://ip-172-31-19-100:54128/
+[rosmaster.master][INFO] 2017-06-05 19:27:08,991: -SUB [/cartesian_command] /cartesian_control_9466_1496715945238 http://ip-172-31-19-100:54128/
+[rosmaster.master][INFO] 2017-06-05 19:27:08,995: -PUB [/joint_velocities] /cartesian_control_9466_1496715945238 http://ip-172-31-19-100:54128/
+[rosmaster.master][INFO] 2017-06-05 19:27:08,998: -PUB [/rosout] /cartesian_control_9466_1496715945238 http://ip-172-31-19-100:54128/
+[rosmaster.master][INFO] 2017-06-05 19:27:09,001: publisherUpdate[/joint_velocities] -> http://ip-172-31-19-100:53273/
+[rosmaster.master][INFO] 2017-06-05 19:27:09,003: -SERVICE [/cartesian_control_9466_1496715945238/get_loggers] /cartesian_control_9466_1496715945238 rosrpc://ip-172-31-19-100:44459
+[rosmaster.master][INFO] 2017-06-05 19:27:09,015: publisherUpdate[/rosout] -> http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:27:09,018: -SERVICE [/cartesian_control_9466_1496715945238/set_logger_level] /cartesian_control_9466_1496715945238 rosrpc://ip-172-31-19-100:44459
+[rosmaster.master][INFO] 2017-06-05 19:27:12,374: +PUB [/rosout] /cartesian_control_10001_1496716032205 http://ip-172-31-19-100:42496/
+[rosmaster.master][INFO] 2017-06-05 19:27:12,376: publisherUpdate[/rosout] -> http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:27:12,384: +SERVICE [/cartesian_control_10001_1496716032205/get_loggers] /cartesian_control_10001_1496716032205 http://ip-172-31-19-100:42496/
+[rosmaster.master][INFO] 2017-06-05 19:27:12,388: +SERVICE [/cartesian_control_10001_1496716032205/set_logger_level] /cartesian_control_10001_1496716032205 http://ip-172-31-19-100:42496/
+[rosmaster.master][INFO] 2017-06-05 19:27:12,404: +SUB [/joint_states] /cartesian_control_10001_1496716032205 http://ip-172-31-19-100:42496/
+[rosmaster.master][INFO] 2017-06-05 19:27:12,410: +SUB [/cartesian_command] /cartesian_control_10001_1496716032205 http://ip-172-31-19-100:42496/
+[rosmaster.master][INFO] 2017-06-05 19:27:12,417: +SUB [/redundancy_command] /cartesian_control_10001_1496716032205 http://ip-172-31-19-100:42496/
+[rosmaster.master][INFO] 2017-06-05 19:27:12,427: +PUB [/joint_velocities] /cartesian_control_10001_1496716032205 http://ip-172-31-19-100:42496/
+[rosmaster.master][INFO] 2017-06-05 19:27:12,428: publisherUpdate[/joint_velocities] -> http://ip-172-31-19-100:53273/
+[rosmaster.master][INFO] 2017-06-05 19:28:58,773: -SUB [/redundancy_command] /cartesian_control_10001_1496716032205 http://ip-172-31-19-100:42496/
+[rosmaster.master][INFO] 2017-06-05 19:28:58,773: -SUB [/joint_states] /cartesian_control_10001_1496716032205 http://ip-172-31-19-100:42496/
+[rosmaster.master][INFO] 2017-06-05 19:28:58,777: -SUB [/cartesian_command] /cartesian_control_10001_1496716032205 http://ip-172-31-19-100:42496/
+[rosmaster.master][INFO] 2017-06-05 19:28:58,781: -PUB [/joint_velocities] /cartesian_control_10001_1496716032205 http://ip-172-31-19-100:42496/
+[rosmaster.master][INFO] 2017-06-05 19:28:58,784: -PUB [/rosout] /cartesian_control_10001_1496716032205 http://ip-172-31-19-100:42496/
+[rosmaster.master][INFO] 2017-06-05 19:28:58,787: -SERVICE [/cartesian_control_10001_1496716032205/get_loggers] /cartesian_control_10001_1496716032205 rosrpc://ip-172-31-19-100:39305
+[rosmaster.master][INFO] 2017-06-05 19:28:58,791: -SERVICE [/cartesian_control_10001_1496716032205/set_logger_level] /cartesian_control_10001_1496716032205 rosrpc://ip-172-31-19-100:39305
+[rosmaster.master][INFO] 2017-06-05 19:28:58,833: publisherUpdate[/joint_velocities] -> http://ip-172-31-19-100:53273/
+[rosmaster.master][INFO] 2017-06-05 19:28:58,837: publisherUpdate[/rosout] -> http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:29:02,256: +PUB [/rosout] /cartesian_control_11518_1496716142092 http://ip-172-31-19-100:39271/
+[rosmaster.master][INFO] 2017-06-05 19:29:02,269: +SERVICE [/cartesian_control_11518_1496716142092/get_loggers] /cartesian_control_11518_1496716142092 http://ip-172-31-19-100:39271/
+[rosmaster.master][INFO] 2017-06-05 19:29:02,274: +SERVICE [/cartesian_control_11518_1496716142092/set_logger_level] /cartesian_control_11518_1496716142092 http://ip-172-31-19-100:39271/
+[rosmaster.master][INFO] 2017-06-05 19:29:02,276: publisherUpdate[/rosout] -> http://ip-172-31-19-100:56719/
+[rosmaster.master][INFO] 2017-06-05 19:29:02,290: +SUB [/joint_states] /cartesian_control_11518_1496716142092 http://ip-172-31-19-100:39271/
+[rosmaster.master][INFO] 2017-06-05 19:29:02,301: +SUB [/cartesian_command] /cartesian_control_11518_1496716142092 http://ip-172-31-19-100:39271/
+[rosmaster.master][INFO] 2017-06-05 19:29:02,307: +SUB [/redundancy_command] /cartesian_control_11518_1496716142092 http://ip-172-31-19-100:39271/
+[rosmaster.master][INFO] 2017-06-05 19:29:02,311: +PUB [/joint_velocities] /cartesian_control_11518_1496716142092 http://ip-172-31-19-100:39271/
+[rosmaster.master][INFO] 2017-06-05 19:29:02,346: publisherUpdate[/joint_velocities] -> http://ip-172-31-19-100:53273/

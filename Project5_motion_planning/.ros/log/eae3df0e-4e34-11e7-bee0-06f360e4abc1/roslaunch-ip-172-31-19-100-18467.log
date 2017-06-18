@@ -1,0 +1,32 @@
+[roslaunch][INFO] 2017-06-10 16:31:28,795: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2017-06-10 16:31:28,866: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2017-06-10 16:31:28,867: roslaunch starting with args ['/opt/ros/indigo/bin/roslaunch', '-p', '51274', 'motion_planning', 'mp.launch']
+[roslaunch][INFO] 2017-06-10 16:31:28,873: roslaunch env is {'ROS_DISTRO': 'indigo', 'ASNLIB': '/home/ccc_v1_s54106__48606/asn13529_Project_5/asn13530_Project_4/asnlib', 'LIB': '/home/ccc_v1_s54106__48606/lib', 'PKG_CONFIG_PATH': '/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/devel/lib/pkgconfig:/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/pkgconfig', 'SSH_CLIENT': '172.31.7.153 51446 22', 'CPATH': '/opt/ros/indigo/include', 'LOGNAME': 'ccc_v1_w_dd4cc_18220', 'USER': 'ccc_v1_w_dd4cc_18220', 'ROS_NODE_PORT': '51274', 'HOME': '/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work', 'PATH': '/opt/ros/indigo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/local/bin:/home/ccc_v1_s54106__48606/lib:/home/ccc_v1_s54106__48606/asn13529_Project_5/asn13530_Project_4/asnlib:/home/vlibs:.', 'CMAKE_PREFIX_PATH': '/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/devel:/opt/ros/indigo', 'LD_LIBRARY_PATH': '/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/devel/lib:/opt/ros/indigo/lib/x86_64-linux-gnu:/opt/ros/indigo/lib:/home/ccc_v1_s54106__48606/lib:/home/ccc_v1_s54106__48606/asn13529_Project_5/asn13530_Project_4/asnlib:/home/vlibs', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'HISTFILE': '/home/ccc_v1_w_dd4cc_18220/.bash_history', 'SHLVL': '2', 'VOC_WORKAREA': '/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work', 'ROS_LOG_FILENAME': '/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/.ros/log/eae3df0e-4e34-11e7-bee0-06f360e4abc1/roslaunch-ip-172-31-19-100-18467.log', 'PART1': '/home/ccc_v1_s54106__48606/asn13529_Project_5/asn13530_Project_4', 'ROS_ETC_DIR': '/opt/ros/indigo/etc/ros', 'XDG_RUNTIME_DIR': '/run/user/18220', 'PYTHONPATH': '/opt/ros/indigo/lib/python2.7/dist-packages:/home/vlibs/python', 'VOC_PROXY_WRAPPER_PORT': '5100', 'VOC_XFER_TOKEN': '15076969414354243542135300593c8144dc4446.11083862', 'ROS_ROOT': '/opt/ros/indigo/share/ros', 'OLD_HOME': '/home/ccc_v1_w_dd4cc_18220', 'VOC_PROXY_TOKEN': '119165089343542435421353001593c8144e23c96.83092475', 'ROS_PACKAGE_PATH': '/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks', 'XDG_SESSION_ID': '322958', '_': '/usr/bin/stdbuf', 'LD_PRELOAD': '/usr/lib/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'SSH_TTY': '/dev/pts/4', 'OLDPWD': '/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/devel/share/common-lisp', 'VLIB': '/home/vlibs', 'PWD': '/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work', 'VOC_PROXY_ID': '43542_43542_13530_0_1', 'ROS_MASTER_URI': 'http://localhost:51274', 'MAIL': '/var/mail/ccc_v1_w_dd4cc_18220', 'SSH_CONNECTION': '172.31.7.153 51446 172.31.19.100 22'}
+[roslaunch][INFO] 2017-06-10 16:31:28,876: starting in server mode
+[roslaunch.parent][INFO] 2017-06-10 16:31:28,881: starting roslaunch parent run
+[roslaunch][INFO] 2017-06-10 16:31:28,885: loading roscore config file /opt/ros/indigo/etc/ros/roscore.xml
+[roslaunch][INFO] 2017-06-10 16:31:29,148: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2017-06-10 16:31:29,149: loading config file /home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/launch/mp.launch
+[roslaunch][INFO] 2017-06-10 16:31:29,650: Added node of type [robot_sim/robot_sim_bringup] in namespace [/]
+[roslaunch][INFO] 2017-06-10 16:31:29,651: Added node of type [robot_state_publisher/robot_state_publisher] in namespace [/]
+[roslaunch][INFO] 2017-06-10 16:31:29,751: Added node of type [moveit_ros_move_group/move_group] in namespace [/]
+[roslaunch][INFO] 2017-06-10 16:31:29,756: ... selected machine [] for node of type [robot_sim/robot_sim_bringup]
+[roslaunch][INFO] 2017-06-10 16:31:29,759: ... selected machine [] for node of type [robot_state_publisher/robot_state_publisher]
+[roslaunch][INFO] 2017-06-10 16:31:29,763: ... selected machine [] for node of type [moveit_ros_move_group/move_group]
+[roslaunch.pmon][INFO] 2017-06-10 16:31:29,767: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2017-06-10 16:31:29,770: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2017-06-10 16:31:29,774: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2017-06-10 16:31:29,778: starting parent XML-RPC server
+[roslaunch.server][INFO] 2017-06-10 16:31:29,781: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2017-06-10 16:31:29,785: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2017-06-10 16:31:29,785: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-10 16:31:29,793: Started XML-RPC server [http://ip-172-31-19-100:36648/]
+[xmlrpc][INFO] 2017-06-10 16:31:29,796: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2017-06-10 16:31:29,804: started roslaunch server http://ip-172-31-19-100:36648/
+[roslaunch.parent][INFO] 2017-06-10 16:31:29,808: ... parent XML-RPC server started
+[roslaunch][INFO] 2017-06-10 16:31:29,812: master.is_running[http://ip-172-31-19-100:51274/]
+[roslaunch][INFO] 2017-06-10 16:31:29,817: master.is_running[http://ip-172-31-19-100:51274/]
+[roslaunch][INFO] 2017-06-10 16:31:29,822: ROS_MASTER_URI=http://ip-172-31-19-100:51274/
+[roslaunch][INFO] 2017-06-10 16:31:29,831: setting /roslaunch/uris/host_ip_172_31_19_100__36648' to http://ip-172-31-19-100:36648/
+[roslaunch][INFO] 2017-06-10 16:31:29,841: load_parameters starting ...

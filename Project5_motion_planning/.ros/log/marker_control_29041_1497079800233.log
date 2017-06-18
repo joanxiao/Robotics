@@ -1,0 +1,54 @@
+[rospy.client][INFO] 2017-06-10 00:30:00,281: init_node, name[/marker_control_29041_1497079800233], pid[29041]
+[xmlrpc][INFO] 2017-06-10 00:30:00,282: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-10 00:30:00,286: Started XML-RPC server [http://ip-172-31-19-100:45295/]
+[rospy.init][INFO] 2017-06-10 00:30:00,286: ROS Slave URI: [http://ip-172-31-19-100:45295/]
+[rospy.impl.masterslave][INFO] 2017-06-10 00:30:00,289: _ready: http://ip-172-31-19-100:45295/
+[xmlrpc][INFO] 2017-06-10 00:30:00,297: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-06-10 00:30:00,298: Registering with master node http://localhost:39659
+[rospy.init][INFO] 2017-06-10 00:30:00,393: registered with master
+[rospy.rosout][INFO] 2017-06-10 00:30:00,397: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-10 00:30:00,405: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-10 00:30:00,410: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-06-10 00:30:00,612: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-06-10 00:30:00,721: topic[/control_markers/update] adding connection to [/interactive_marker_proxy], count 0
+[rospy.internal][INFO] 2017-06-10 00:30:00,732: topic[/collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-10 00:30:00,736: topic[/attached_collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-10 00:30:01,123: topic[/control_markers/update_full] adding connection to [/interactive_marker_proxy], count 0
+[rospy.internal][INFO] 2017-06-10 00:30:15,503: topic[/joint_trajectory] adding connection to [http://ip-172-31-19-100:36321/], count 0
+[rospy.internal][INFO] 2017-06-10 00:30:15,505: topic[/motion_planning_goal] adding connection to [/move_arm_29578_1497079815125], count 0
+[rospy.internal][INFO] 2017-06-10 00:30:16,555: topic[/visualization_marker_array] adding connection to [/rosbridge_websocket], count 0
+[rospy.internal][INFO] 2017-06-10 00:30:16,620: topic[/control_markers/feedback] adding connection to [http://ip-172-31-19-100:56257/], count 0
+[rospy.internal][INFO] 2017-06-10 00:30:50,261: topic[/joint_states] adding connection to [http://ip-172-31-19-100:42640/], count 0
+[rospy.internal][INFO] 2017-06-10 00:30:50,261: topic[/tf] adding connection to [http://ip-172-31-19-100:51476/], count 0
+[rospy.internal][INFO] 2017-06-10 00:30:50,547: topic[/joint_command] adding connection to [/robot_sim], count 0
+[rospy.internal][ERROR] 2017-06-10 00:31:01,912: Unable to initiate TCP/IP socket to ip-172-31-19-100:41789 (http://ip-172-31-19-100:36321/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2017-06-10 00:31:02,985: Unknown error initiating TCP/IP socket to ip-172-31-19-100:41789 (http://ip-172-31-19-100:36321/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2017-06-10 00:31:02,989: topic[/joint_trajectory] removing connection to http://ip-172-31-19-100:36321/
+[rospy.internal][INFO] 2017-06-10 00:31:03,784: topic[/control_markers/update_full] removing connection to /interactive_marker_proxy
+[rospy.internal][INFO] 2017-06-10 00:31:34,303: topic[/motion_planning_goal] removing connection to /move_arm_29578_1497079815125
+[rospy.internal][INFO] 2017-06-10 00:32:35,587: topic[/joint_trajectory] adding connection to [http://ip-172-31-19-100:48031/], count 0
+[rospy.internal][INFO] 2017-06-10 00:32:35,590: topic[/motion_planning_goal] adding connection to [/move_arm_438_1497079955204], count 0
+[rospy.internal][WARNING] 2017-06-10 00:32:57,562: Unknown error initiating TCP/IP socket to ip-172-31-19-100:52679 (http://ip-172-31-19-100:48031/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2017-06-10 00:32:57,563: topic[/joint_trajectory] removing connection to http://ip-172-31-19-100:48031/

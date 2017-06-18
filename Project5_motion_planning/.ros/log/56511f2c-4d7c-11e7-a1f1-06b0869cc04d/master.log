@@ -1,0 +1,354 @@
+[rosmaster.main][INFO] 2017-06-09 18:30:08,206: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-06-09 18:30:08,207: Starting ROS Master Node
+[xmlrpc][INFO] 2017-06-09 18:30:08,211: XML-RPC server binding to 0.0.0.0:55471
+[xmlrpc][INFO] 2017-06-09 18:30:08,216: Started XML-RPC server [http://ip-172-31-26-229:55471/]
+[rosmaster.master][INFO] 2017-06-09 18:30:08,216: Master initialized: port[55471], uri[http://ip-172-31-26-229:55471/]
+[xmlrpc][INFO] 2017-06-09 18:30:08,219: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-06-09 18:30:08,295: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:08,303: +PARAM [/roslaunch/uris/host_ip_172_31_26_229__38404] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:08,396: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:08,400: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:08,429: +SERVICE [/rosout/get_loggers] /rosout http://ip-172-31-26-229:35435/
+[rosmaster.master][INFO] 2017-06-09 18:30:08,433: +SERVICE [/rosout/set_logger_level] /rosout http://ip-172-31-26-229:35435/
+[rosmaster.master][INFO] 2017-06-09 18:30:08,439: +PUB [/rosout_agg] /rosout http://ip-172-31-26-229:35435/
+[rosmaster.master][INFO] 2017-06-09 18:30:08,451: +SUB [/rosout] /rosout http://ip-172-31-26-229:35435/
+[rosmaster.master][INFO] 2017-06-09 18:30:08,770: +PUB [/rosout] /tf2_web_republisher http://ip-172-31-26-229:56235/
+[rosmaster.master][INFO] 2017-06-09 18:30:08,774: +SERVICE [/tf2_web_republisher/get_loggers] /tf2_web_republisher http://ip-172-31-26-229:56235/
+[rosmaster.master][INFO] 2017-06-09 18:30:08,778: +SERVICE [/tf2_web_republisher/set_logger_level] /tf2_web_republisher http://ip-172-31-26-229:56235/
+[rosmaster.master][INFO] 2017-06-09 18:30:08,787: +SUB [/tf] /tf2_web_republisher http://ip-172-31-26-229:56235/
+[rosmaster.master][INFO] 2017-06-09 18:30:08,795: +SUB [/tf_static] /tf2_web_republisher http://ip-172-31-26-229:56235/
+[rosmaster.master][INFO] 2017-06-09 18:30:08,799: +SERVICE [/republish_tfs] /tf2_web_republisher http://ip-172-31-26-229:56235/
+[rosmaster.master][INFO] 2017-06-09 18:30:08,803: +PUB [/tf2_web_republisher/result] /tf2_web_republisher http://ip-172-31-26-229:56235/
+[rosmaster.master][INFO] 2017-06-09 18:30:08,807: +PUB [/tf2_web_republisher/feedback] /tf2_web_republisher http://ip-172-31-26-229:56235/
+[rosmaster.master][INFO] 2017-06-09 18:30:08,811: +PUB [/tf2_web_republisher/status] /tf2_web_republisher http://ip-172-31-26-229:56235/
+[rosmaster.master][INFO] 2017-06-09 18:30:08,812: publisherUpdate[/rosout] -> http://ip-172-31-26-229:35435/
+[rosmaster.master][INFO] 2017-06-09 18:30:08,822: +SUB [/tf2_web_republisher/goal] /tf2_web_republisher http://ip-172-31-26-229:56235/
+[rosmaster.master][INFO] 2017-06-09 18:30:08,829: +SUB [/tf2_web_republisher/cancel] /tf2_web_republisher http://ip-172-31-26-229:56235/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,205: +PARAM [/roslaunch/uris/host_ip_172_31_26_229__59485] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:10,213: +PARAM [/rosbridge_websocket/port] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:10,217: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:10,220: +PARAM [/rosbridge_websocket/fragment_timeout] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:10,224: +PARAM [/rosbridge_websocket/delay_between_messages] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:10,227: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:10,231: +PARAM [/rosbridge_websocket/authenticate] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:10,235: +PARAM [/rosbridge_websocket/retry_startup_delay] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:10,238: +PARAM [/rosbridge_websocket/address] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:10,242: +PARAM [/rosbridge_websocket/max_message_size] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:10,829: +PUB [/rosout] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,829: publisherUpdate[/rosout] -> http://ip-172-31-26-229:35435/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,834: +PUB [/rosout] /interactive_marker_proxy http://ip-172-31-26-229:49162/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,839: publisherUpdate[/rosout] -> http://ip-172-31-26-229:35435/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,844: +SERVICE [/interactive_marker_proxy/get_loggers] /interactive_marker_proxy http://ip-172-31-26-229:49162/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,851: +SERVICE [/rosapi/get_loggers] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,856: +SERVICE [/interactive_marker_proxy/set_logger_level] /interactive_marker_proxy http://ip-172-31-26-229:49162/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,860: +SERVICE [/rosapi/set_logger_level] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,866: +SERVICE [/rosapi/topics] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,870: +SUB [/tf] /interactive_marker_proxy http://ip-172-31-26-229:49162/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,873: +SERVICE [/rosapi/topics_for_type] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,878: +SUB [/tf_static] /interactive_marker_proxy http://ip-172-31-26-229:49162/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,882: +SERVICE [/rosapi/services] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,886: +SUB [/control_markers/update] /interactive_marker_proxy http://ip-172-31-26-229:49162/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,890: +SERVICE [/rosapi/services_for_type] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,894: +SUB [/control_markers/update_full] /interactive_marker_proxy http://ip-172-31-26-229:49162/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,897: +SERVICE [/rosapi/nodes] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,902: +PUB [/control_markers/tunneled/update] /interactive_marker_proxy http://ip-172-31-26-229:49162/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,905: +SERVICE [/rosapi/node_details] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,909: +SERVICE [/control_markers/tunneled/get_init] /interactive_marker_proxy http://ip-172-31-26-229:49162/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,913: +SERVICE [/rosapi/topic_type] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,927: +SERVICE [/rosapi/service_type] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,932: +SERVICE [/rosapi/publishers] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,936: +SERVICE [/rosapi/subscribers] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,941: +SERVICE [/rosapi/service_providers] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,946: +SERVICE [/rosapi/service_node] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,950: -SUB [/control_markers/update_full] /interactive_marker_proxy http://ip-172-31-26-229:49162/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,954: +SERVICE [/rosapi/service_host] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,959: +SERVICE [/rosapi/message_details] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,963: +PUB [/rosout] /rosbridge_websocket http://ip-172-31-26-229:34207/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,967: +SERVICE [/rosapi/service_request_details] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,972: +SERVICE [/rosapi/service_response_details] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,976: +SERVICE [/rosbridge_websocket/get_loggers] /rosbridge_websocket http://ip-172-31-26-229:34207/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,980: +SERVICE [/rosapi/set_param] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,985: +SERVICE [/rosbridge_websocket/set_logger_level] /rosbridge_websocket http://ip-172-31-26-229:34207/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,991: +SERVICE [/rosapi/get_param] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:10,997: +SERVICE [/rosapi/has_param] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:11,002: +SERVICE [/rosapi/search_param] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:11,007: +SERVICE [/rosapi/delete_param] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:11,012: +SERVICE [/rosapi/get_param_names] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:11,015: publisherUpdate[/rosout] -> http://ip-172-31-26-229:35435/
+[rosmaster.master][INFO] 2017-06-09 18:30:11,017: +SERVICE [/rosapi/get_time] /rosapi http://ip-172-31-26-229:39550/
+[rosmaster.master][INFO] 2017-06-09 18:30:12,670: +PARAM [/roslaunch/uris/host_ip_172_31_26_229__58575] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,685: +PARAM [/robot_description_kinematics/lwr_arm/kinematics_solver] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,689: +PARAM [/move_group/planner_configs/RRTkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,692: +PARAM [/robot_description_semantic] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,696: +PARAM [/robot_description_kinematics/lwr_arm/kinematics_solver_attempts] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,699: +PARAM [/robot_description_planning/joint_limits/lwr_arm_6_joint/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,703: +PARAM [/robot_description_planning/joint_limits/lwr_arm_5_joint/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,706: +PARAM [/move_group/planner_configs/RRTstarkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,710: +PARAM [/robot_description_planning/joint_limits/lwr_arm_0_joint/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,713: +PARAM [/robot_description_planning/joint_limits/lwr_arm_0_joint/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,717: +PARAM [/move_group/max_safe_path_cost] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,720: +PARAM [/move_group/planner_configs/RRTstarkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,724: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,727: +PARAM [/move_group/planner_configs/PRMkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,731: +PARAM [/move_group/planner_configs/ESTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,734: +PARAM [/robot_description_planning/joint_limits/lwr_arm_2_joint/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,738: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/min_valid_path_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,741: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/border_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,745: +PARAM [/move_group/planner_configs/PRMkConfigDefault/max_nearest_neighbors] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,748: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,752: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/min_valid_path_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,758: +PARAM [/robot_description_planning/joint_limits/lwr_arm_2_joint/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,762: +PARAM [/robot_description_planning/joint_limits/lwr_arm_3_joint/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,765: +PARAM [/robot_description_planning/joint_limits/lwr_arm_4_joint/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,769: +PARAM [/robot_description_planning/joint_limits/lwr_arm_0_joint/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,773: +PARAM [/move_group/planner_configs/SBLkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,777: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/frountierNodeRatio] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,780: +PARAM [/robot_description_planning/joint_limits/lwr_arm_6_joint/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,784: +PARAM [/move_group/planning_plugin] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,787: +PARAM [/move_group/planning_scene_monitor/publish_geometry_updates] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,790: +PARAM [/robot_description_planning/joint_limits/lwr_arm_3_joint/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,794: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/max_states_failed] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,798: +PARAM [/robot_description_planning/joint_limits/lwr_arm_3_joint/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,801: +PARAM [/robot_description_kinematics/lwr_arm/kinematics_solver_timeout] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,805: +PARAM [/move_group/lwr_arm/projection_evaluator] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,808: +PARAM [/robot_description_planning/joint_limits/lwr_arm_1_joint/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,812: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,815: +PARAM [/robot_description_planning/joint_limits/lwr_arm_5_joint/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,819: +PARAM [/move_group/planner_configs/PRMstarkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,822: +PARAM [/move_group/planner_configs/RRTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,825: +PARAM [/move_group/allow_trajectory_execution] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,829: +PARAM [/move_group/lwr_arm/planner_configs] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,833: +PARAM [/move_group/planner_configs/ESTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,836: +PARAM [/move_group/start_state_max_bounds_error] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,840: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/init_temperature] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,843: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,847: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/border_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,850: +PARAM [/robot_description_planning/joint_limits/lwr_arm_4_joint/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,855: +PARAM [/move_group/planner_configs/ESTkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,861: +PARAM [/move_group/planner_configs/LBKPIECEkConfigDefault/border_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,865: +PARAM [/move_group/jiggle_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,868: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,872: +PARAM [/move_group/planning_scene_monitor/publish_state_updates] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,875: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/temp_change_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,879: +PARAM [/robot_description_planning/joint_limits/lwr_arm_6_joint/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,882: +PARAM [/robot_description_planning/joint_limits/lwr_arm_1_joint/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,886: +PARAM [/move_group/planner_configs/SBLkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,889: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,893: +PARAM [/move_group/capabilities] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,896: +PARAM [/move_group/planner_configs/LBKPIECEkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,900: +PARAM [/robot_description_planning/joint_limits/lwr_arm_5_joint/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,903: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,908: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,911: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,915: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,918: +PARAM [/move_group/planner_configs/RRTConnectkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,922: +PARAM [/move_group/request_adapters] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,926: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/min_temperature] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,930: +PARAM [/robot_description_planning/joint_limits/lwr_arm_6_joint/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,933: +PARAM [/robot_description_planning/joint_limits/lwr_arm_1_joint/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,937: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/failed_expansion_score_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,940: +PARAM [/move_group/planning_scene_monitor/publish_transforms_updates] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,944: +PARAM [/robot_description_planning/joint_limits/lwr_arm_5_joint/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,948: +PARAM [/robot_description_planning/joint_limits/lwr_arm_3_joint/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,952: +PARAM [/move_group/planner_configs/RRTstarkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,955: +PARAM [/move_group/lwr_arm/longest_valid_segment_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,959: +PARAM [/move_group/planner_configs/RRTstarkConfigDefault/delay_collision_checking] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,969: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,973: +PARAM [/robot_description_kinematics/lwr_arm/kinematics_solver_search_resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,977: +PARAM [/move_group/planner_configs/RRTConnectkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,980: +PARAM [/robot_description_planning/joint_limits/lwr_arm_2_joint/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,983: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/failed_expansion_score_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,987: +PARAM [/robot_description_planning/joint_limits/lwr_arm_2_joint/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,991: +PARAM [/move_group/planner_configs/LBKPIECEkConfigDefault/min_valid_path_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,994: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:12,998: +PARAM [/robot_description_planning/joint_limits/lwr_arm_4_joint/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:13,002: +PARAM [/robot_description_planning/joint_limits/lwr_arm_4_joint/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:13,005: +PARAM [/robot_description_planning/joint_limits/lwr_arm_0_joint/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:13,008: +PARAM [/robot_description_planning/joint_limits/lwr_arm_1_joint/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:13,012: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/k_constant] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:13,015: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/frountier_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:13,019: +PARAM [/move_group/planner_configs/LBKPIECEkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:13,022: +PARAM [/move_group/planner_configs/RRTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-06-09 18:30:13,237: +PUB [/rosout] /robot_sim http://ip-172-31-26-229:46603/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,243: +SERVICE [/robot_sim/get_loggers] /robot_sim http://ip-172-31-26-229:46603/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,247: +SERVICE [/robot_sim/set_logger_level] /robot_sim http://ip-172-31-26-229:46603/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,252: publisherUpdate[/rosout] -> http://ip-172-31-26-229:35435/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,266: +PUB [/joint_states] /robot_sim http://ip-172-31-26-229:46603/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,276: +SUB [/joint_velocities] /robot_sim http://ip-172-31-26-229:46603/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,286: +SUB [/joint_positions] /robot_sim http://ip-172-31-26-229:46603/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,298: +SUB [/joint_command] /robot_sim http://ip-172-31-26-229:46603/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,306: +PUB [/rosout] /robot_state_publisher http://ip-172-31-26-229:59096/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,309: +SUB [/joint_trajectory] /robot_sim http://ip-172-31-26-229:46603/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,313: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://ip-172-31-26-229:59096/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,318: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://ip-172-31-26-229:59096/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,320: publisherUpdate[/rosout] -> http://ip-172-31-26-229:35435/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,327: +PUB [/tf] /robot_state_publisher http://ip-172-31-26-229:59096/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,331: +PUB [/tf_static] /robot_state_publisher http://ip-172-31-26-229:59096/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,344: +SUB [/joint_states] /robot_state_publisher http://ip-172-31-26-229:59096/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,364: publisherUpdate[/tf] -> http://ip-172-31-26-229:56235/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,374: publisherUpdate[/tf] -> http://ip-172-31-26-229:49162/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,384: publisherUpdate[/tf_static] -> http://ip-172-31-26-229:56235/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,388: publisherUpdate[/tf_static] -> http://ip-172-31-26-229:49162/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,536: +PUB [/rosout] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,542: +SERVICE [/move_group/get_loggers] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,546: +SERVICE [/move_group/set_logger_level] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,557: +SUB [/tf] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,567: +SUB [/tf_static] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,600: publisherUpdate[/rosout] -> http://ip-172-31-26-229:35435/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,769: +SERVICE [/move_group/planning_scene_monitor/set_parameters] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,774: +PUB [/move_group/planning_scene_monitor/parameter_descriptions] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,780: +PUB [/move_group/planning_scene_monitor/parameter_updates] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,791: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:13,795: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene_hz] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:13,800: +PARAM [/move_group/planning_scene_monitor/publish_geometry_updates] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:13,804: +PARAM [/move_group/planning_scene_monitor/publish_state_updates] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:13,809: +PARAM [/move_group/planning_scene_monitor/publish_transforms_updates] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:13,814: +PUB [/move_group/monitored_planning_scene] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,820: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:13,825: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene_hz] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:13,826: +PUB [/rosout] /move_group_commander_wrappers_1497058213820265025 http://ip-172-31-26-229:39432/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,826: publisherUpdate[/rosout] -> http://ip-172-31-26-229:35435/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,830: +PARAM [/move_group/planning_scene_monitor/publish_geometry_updates] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:13,833: +SERVICE [/move_group_commander_wrappers_1497058213820265025/get_loggers] /move_group_commander_wrappers_1497058213820265025 http://ip-172-31-26-229:39432/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,840: +PARAM [/move_group/planning_scene_monitor/publish_state_updates] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:13,844: +SERVICE [/move_group_commander_wrappers_1497058213820265025/set_logger_level] /move_group_commander_wrappers_1497058213820265025 http://ip-172-31-26-229:39432/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,847: +PARAM [/move_group/planning_scene_monitor/publish_transforms_updates] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:13,860: +SUB [/planning_scene] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,870: +SUB [/collision_object] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,879: +SUB [/planning_scene_world] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,887: +SERVICE [/move_group/save_map] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,891: +SERVICE [/move_group/load_map] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,901: +SUB [/joint_states] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:13,911: +SUB [/attached_collision_object] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,004: +SERVICE [/move_group/ompl/set_parameters] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,009: +PUB [/move_group/ompl/parameter_descriptions] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,013: +PUB [/move_group/ompl/parameter_updates] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,018: +PUB [/rosout] /marker_control_4416_1497058213851 http://ip-172-31-26-229:40402/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,023: +PARAM [/move_group/ompl/simplify_solutions] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:14,025: publisherUpdate[/rosout] -> http://ip-172-31-26-229:35435/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,028: +PARAM [/move_group/ompl/minimum_waypoint_count] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:14,032: +SERVICE [/marker_control_4416_1497058213851/get_loggers] /marker_control_4416_1497058213851 http://ip-172-31-26-229:40402/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,035: +PARAM [/move_group/ompl/maximum_waypoint_distance] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:14,038: +SERVICE [/marker_control_4416_1497058213851/set_logger_level] /marker_control_4416_1497058213851 http://ip-172-31-26-229:40402/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,048: +PARAM [/move_group/ompl/link_for_exploration_tree] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:14,051: +PUB [/planning_scene] /move_group_commander_wrappers_1497058213820265025 http://ip-172-31-26-229:39432/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,055: +PARAM [/move_group/ompl/display_random_valid_states] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:14,060: +PUB [/collision_object] /marker_control_4416_1497058213851 http://ip-172-31-26-229:40402/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,064: +PARAM [/move_group/ompl/simplify_solutions] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:14,067: +PUB [/attached_collision_object] /marker_control_4416_1497058213851 http://ip-172-31-26-229:40402/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,071: +PARAM [/move_group/ompl/minimum_waypoint_count] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:14,075: +PUB [/visualization_marker_array] /marker_control_4416_1497058213851 http://ip-172-31-26-229:40402/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,078: +PARAM [/move_group/ompl/maximum_waypoint_distance] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:14,082: +PUB [/motion_planning_goal] /marker_control_4416_1497058213851 http://ip-172-31-26-229:40402/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,085: +PARAM [/move_group/ompl/link_for_exploration_tree] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:14,090: +SUB [/joint_trajectory] /marker_control_4416_1497058213851 http://ip-172-31-26-229:40402/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,092: +PARAM [/move_group/ompl/display_random_valid_states] by /move_group
+[rosmaster.master][INFO] 2017-06-09 18:30:14,096: +PUB [/control_markers/update_full] /marker_control_4416_1497058213851 http://ip-172-31-26-229:40402/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,104: +PUB [/control_markers/update] /marker_control_4416_1497058213851 http://ip-172-31-26-229:40402/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,106: publisherUpdate[/planning_scene] -> http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,110: +SUB [/control_markers/feedback] /marker_control_4416_1497058213851 http://ip-172-31-26-229:40402/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,113: publisherUpdate[/collision_object] -> http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,122: publisherUpdate[/attached_collision_object] -> http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,127: publisherUpdate[/control_markers/update] -> http://ip-172-31-26-229:49162/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,147: +PUB [/move_group/display_planned_path] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,156: +PUB [/move_group/display_contacts] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,207: +SERVICE [/apply_planning_scene] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,211: +SERVICE [/clear_octomap] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,216: +SERVICE [/compute_cartesian_path] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,221: +SERVICE [/execute_kinematic_path] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,227: +PUB [/execute_trajectory/result] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,231: +PUB [/execute_trajectory/feedback] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,236: +PUB [/execute_trajectory/status] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,246: +SUB [/execute_trajectory/goal] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,255: +SUB [/execute_trajectory/cancel] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,265: +SERVICE [/get_planning_scene] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,270: +SERVICE [/compute_fk] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,274: +SERVICE [/compute_ik] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,280: +PUB [/move_group/result] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,284: +PUB [/move_group/feedback] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,289: +PUB [/move_group/status] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,300: +SUB [/move_group/goal] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,309: +SUB [/move_group/cancel] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,358: +PUB [/pickup/result] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,362: +PUB [/pickup/feedback] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,371: +PUB [/pickup/status] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,381: +SUB [/pickup/goal] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,390: +SUB [/pickup/cancel] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,397: +PUB [/place/result] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,401: +PUB [/place/feedback] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,405: +PUB [/place/status] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,416: +SUB [/place/goal] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,425: +SUB [/place/cancel] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,430: +SERVICE [/plan_kinematic_path] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,435: +SERVICE [/query_planner_interface] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,439: +SERVICE [/check_state_validity] /move_group http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,623: +SUB [/control_markers/update_full] /interactive_marker_proxy http://ip-172-31-26-229:49162/
+[rosmaster.master][INFO] 2017-06-09 18:30:14,748: -SUB [/control_markers/update_full] /interactive_marker_proxy http://ip-172-31-26-229:49162/
+[rosmaster.master][INFO] 2017-06-09 18:30:25,140: +PUB [/tf2_web_republisher/goal] /rosbridge_websocket http://ip-172-31-26-229:34207/
+[rosmaster.master][INFO] 2017-06-09 18:30:25,148: publisherUpdate[/tf2_web_republisher/goal] -> http://ip-172-31-26-229:56235/
+[rosmaster.master][INFO] 2017-06-09 18:30:25,150: +PUB [/tf2_web_republisher/cancel] /rosbridge_websocket http://ip-172-31-26-229:34207/
+[rosmaster.master][INFO] 2017-06-09 18:30:25,160: publisherUpdate[/tf2_web_republisher/cancel] -> http://ip-172-31-26-229:56235/
+[rosmaster.master][INFO] 2017-06-09 18:30:25,169: +SUB [/tf2_web_republisher/feedback] /rosbridge_websocket http://ip-172-31-26-229:34207/
+[rosmaster.master][INFO] 2017-06-09 18:30:25,195: +SUB [/visualization_marker_array] /rosbridge_websocket http://ip-172-31-26-229:34207/
+[rosmaster.master][INFO] 2017-06-09 18:30:25,213: +SUB [/control_markers/tunneled/update] /rosbridge_websocket http://ip-172-31-26-229:34207/
+[rosmaster.master][INFO] 2017-06-09 18:30:25,227: +PUB [/control_markers/feedback] /rosbridge_websocket http://ip-172-31-26-229:34207/
+[rosmaster.master][INFO] 2017-06-09 18:30:25,249: publisherUpdate[/control_markers/feedback] -> http://ip-172-31-26-229:40402/
+[rosmaster.master][INFO] 2017-06-09 18:30:40,975: +PUB [/rosout] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:40,976: +SERVICE [/move_group_commander_wrappers_1497058240969077784/get_loggers] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:40,980: publisherUpdate[/rosout] -> http://ip-172-31-26-229:35435/
+[rosmaster.master][INFO] 2017-06-09 18:30:40,981: +SERVICE [/move_group_commander_wrappers_1497058240969077784/set_logger_level] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,150: +PUB [/rosout] /move_arm_5528_1497058240988 http://ip-172-31-26-229:46098/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,163: +SERVICE [/move_arm_5528_1497058240988/get_loggers] /move_arm_5528_1497058240988 http://ip-172-31-26-229:46098/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,167: +SERVICE [/move_arm_5528_1497058240988/set_logger_level] /move_arm_5528_1497058240988 http://ip-172-31-26-229:46098/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,173: +SUB [/joint_states] /move_arm_5528_1497058240988 http://ip-172-31-26-229:46098/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,178: +SUB [/motion_planning_goal] /move_arm_5528_1497058240988 http://ip-172-31-26-229:46098/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,181: publisherUpdate[/rosout] -> http://ip-172-31-26-229:35435/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,184: +PUB [/joint_trajectory] /move_arm_5528_1497058240988 http://ip-172-31-26-229:46098/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,185: publisherUpdate[/joint_trajectory] -> http://ip-172-31-26-229:46603/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,187: publisherUpdate[/joint_trajectory] -> http://ip-172-31-26-229:40402/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,352: +SUB [/tf] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,360: +SUB [/tf_static] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,366: +PUB [/planning_scene] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,371: +PUB [/collision_object] /move_arm_5528_1497058240988 http://ip-172-31-26-229:46098/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,377: +PUB [/attached_collision_object] /move_arm_5528_1497058240988 http://ip-172-31-26-229:46098/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,382: +PUB [/trajectory_execution_event] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,386: +PUB [/attached_collision_object] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,393: publisherUpdate[/planning_scene] -> http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,396: +SUB [/move_group/status] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,397: publisherUpdate[/collision_object] -> http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,405: +SUB [/move_group/feedback] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,405: publisherUpdate[/attached_collision_object] -> http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,417: +SUB [/move_group/result] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,417: publisherUpdate[/attached_collision_object] -> http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,421: +PUB [/move_group/goal] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,424: publisherUpdate[/move_group/goal] -> http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,428: +PUB [/move_group/cancel] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,431: publisherUpdate[/move_group/cancel] -> http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,648: +SUB [/pickup/status] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,657: +SUB [/pickup/feedback] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,665: +SUB [/pickup/result] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,677: +PUB [/pickup/goal] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,681: +PUB [/pickup/cancel] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,696: publisherUpdate[/pickup/goal] -> http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,702: publisherUpdate[/pickup/cancel] -> http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,914: +SUB [/place/status] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,923: +SUB [/place/feedback] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,933: +SUB [/place/result] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,937: +PUB [/place/goal] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,939: publisherUpdate[/place/goal] -> http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,941: +PUB [/place/cancel] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:41,945: publisherUpdate[/place/cancel] -> http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:42,161: +SUB [/execute_trajectory/status] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:42,169: +SUB [/execute_trajectory/feedback] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:42,176: +SUB [/execute_trajectory/result] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:42,181: +PUB [/execute_trajectory/goal] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:42,185: +PUB [/execute_trajectory/cancel] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:42,192: -SUB [/execute_trajectory/status] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:42,196: -PUB [/execute_trajectory/cancel] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:42,201: -PUB [/execute_trajectory/goal] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:42,201: publisherUpdate[/execute_trajectory/goal] -> http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:42,206: -SUB [/execute_trajectory/feedback] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:42,217: publisherUpdate[/execute_trajectory/cancel] -> http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:42,220: -SUB [/execute_trajectory/result] /move_group_commander_wrappers_1497058240969077784 http://ip-172-31-26-229:42508/
+[rosmaster.master][INFO] 2017-06-09 18:30:42,224: publisherUpdate[/execute_trajectory/cancel] -> http://ip-172-31-26-229:58802/
+[rosmaster.master][INFO] 2017-06-09 18:30:42,231: publisherUpdate[/execute_trajectory/goal] -> http://ip-172-31-26-229:58802/

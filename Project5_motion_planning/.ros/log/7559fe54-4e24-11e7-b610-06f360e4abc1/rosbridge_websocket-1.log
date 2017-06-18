@@ -1,0 +1,30 @@
+[rospy.client][INFO] 2017-06-10 14:33:38,384: init_node, name[/rosbridge_websocket], pid[21616]
+[xmlrpc][INFO] 2017-06-10 14:33:38,385: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-10 14:33:38,389: Started XML-RPC server [http://ip-172-31-19-100:36636/]
+[rospy.init][INFO] 2017-06-10 14:33:38,389: ROS Slave URI: [http://ip-172-31-19-100:36636/]
+[rospy.impl.masterslave][INFO] 2017-06-10 14:33:38,395: _ready: http://ip-172-31-19-100:36636/
+[xmlrpc][INFO] 2017-06-10 14:33:38,402: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-06-10 14:33:38,403: Registering with master node http://localhost:54190
+[rospy.init][INFO] 2017-06-10 14:33:38,499: registered with master
+[rospy.rosout][INFO] 2017-06-10 14:33:38,502: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-10 14:33:38,514: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-10 14:33:38,519: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2017-06-10 14:33:38,552: Rosbridge WebSocket server started on port 47358
+[rospy.internal][INFO] 2017-06-10 14:33:38,789: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2017-06-10 14:33:46,822: Client connected.  1 clients total.
+[rosout][INFO] 2017-06-10 14:33:46,967: [Client 0] Subscribed to /tf2_web_republisher/feedback
+[rospy.internal][INFO] 2017-06-10 14:33:46,981: topic[/tf2_web_republisher/feedback] adding connection to [http://ip-172-31-19-100:32909/], count 0
+[rosout][INFO] 2017-06-10 14:33:46,987: [Client 0] Subscribed to /visualization_marker_array
+[rospy.internal][INFO] 2017-06-10 14:33:46,991: topic[/visualization_marker_array] adding connection to [http://ip-172-31-19-100:54987/], count 0
+[rosout][INFO] 2017-06-10 14:33:47,002: [Client 0] Subscribed to /control_markers/tunneled/update
+[rospy.internal][INFO] 2017-06-10 14:33:47,006: topic[/control_markers/tunneled/update] adding connection to [http://ip-172-31-19-100:32865/], count 0
+[rospy.internal][INFO] 2017-06-10 14:33:47,080: topic[/control_markers/feedback] adding connection to [/marker_control_21804_1497130421421], count 0
+[rosout][INFO] 2017-06-10 14:33:47,127: [Client 0] Subscribed to /tf2_web_republisher/feedback
+[rosout][INFO] 2017-06-10 14:33:47,137: [Client 0] Subscribed to /tf2_web_republisher/feedback
+[rosout][INFO] 2017-06-10 14:33:47,142: [Client 0] Subscribed to /tf2_web_republisher/feedback
+[rosout][INFO] 2017-06-10 14:33:47,146: [Client 0] Subscribed to /tf2_web_republisher/feedback
+[rosout][INFO] 2017-06-10 14:33:47,151: [Client 0] Subscribed to /tf2_web_republisher/feedback
+[rosout][INFO] 2017-06-10 14:33:47,155: [Client 0] Subscribed to /tf2_web_republisher/feedback
+[rosout][INFO] 2017-06-10 14:33:47,160: [Client 0] Subscribed to /tf2_web_republisher/feedback
+[rospy.internal][INFO] 2017-06-10 14:33:47,183: topic[/tf2_web_republisher/goal] adding connection to [/tf2_web_republisher], count 0
+[rospy.internal][INFO] 2017-06-10 14:33:47,187: topic[/tf2_web_republisher/cancel] adding connection to [/tf2_web_republisher], count 0

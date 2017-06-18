@@ -1,0 +1,26 @@
+[rospy.client][INFO] 2017-06-10 20:03:07,399: init_node, name[/marker_control_21138_1497150187351], pid[21138]
+[xmlrpc][INFO] 2017-06-10 20:03:07,399: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-10 20:03:07,403: Started XML-RPC server [http://ip-172-31-26-229:49261/]
+[rospy.init][INFO] 2017-06-10 20:03:07,403: ROS Slave URI: [http://ip-172-31-26-229:49261/]
+[rospy.impl.masterslave][INFO] 2017-06-10 20:03:07,407: _ready: http://ip-172-31-26-229:49261/
+[xmlrpc][INFO] 2017-06-10 20:03:07,415: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-06-10 20:03:07,415: Registering with master node http://localhost:39881
+[rospy.init][INFO] 2017-06-10 20:03:07,510: registered with master
+[rospy.rosout][INFO] 2017-06-10 20:03:07,514: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-10 20:03:07,525: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-10 20:03:07,534: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-06-10 20:03:07,723: topic[/collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-10 20:03:07,751: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-06-10 20:03:07,825: topic[/attached_collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-10 20:03:07,829: topic[/control_markers/update] adding connection to [/interactive_marker_proxy], count 0
+[rospy.internal][INFO] 2017-06-10 20:03:08,229: topic[/control_markers/update_full] adding connection to [/interactive_marker_proxy], count 0
+[rospy.internal][INFO] 2017-06-10 20:03:23,341: topic[/joint_trajectory] adding connection to [http://ip-172-31-26-229:50619/], count 0
+[rospy.internal][INFO] 2017-06-10 20:03:24,171: topic[/motion_planning_goal] adding connection to [/move_arm_21795_1497150202956], count 0
+[rospy.internal][WARNING] 2017-06-10 20:03:51,200: Unknown error initiating TCP/IP socket to ip-172-31-26-229:59457 (http://ip-172-31-26-229:50619/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2017-06-10 20:03:51,200: topic[/joint_trajectory] removing connection to http://ip-172-31-26-229:50619/

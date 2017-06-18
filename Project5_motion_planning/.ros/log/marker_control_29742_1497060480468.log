@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2017-06-09 19:08:00,521: init_node, name[/marker_control_29742_1497060480468], pid[29742]
+[xmlrpc][INFO] 2017-06-09 19:08:00,522: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-09 19:08:00,527: Started XML-RPC server [http://ip-172-31-19-100:46302/]
+[rospy.init][INFO] 2017-06-09 19:08:00,527: ROS Slave URI: [http://ip-172-31-19-100:46302/]
+[rospy.impl.masterslave][INFO] 2017-06-09 19:08:00,531: _ready: http://ip-172-31-19-100:46302/
+[rospy.registration][INFO] 2017-06-09 19:08:00,540: Registering with master node http://localhost:49670
+[xmlrpc][INFO] 2017-06-09 19:08:00,540: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-06-09 19:08:00,635: registered with master
+[rospy.rosout][INFO] 2017-06-09 19:08:00,638: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-09 19:08:00,648: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-09 19:08:00,653: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-06-09 19:08:00,888: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-06-09 19:08:00,910: topic[/collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-09 19:08:00,914: topic[/attached_collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-09 19:08:00,991: topic[/control_markers/update] adding connection to [/interactive_marker_proxy], count 0
+[rospy.internal][INFO] 2017-06-09 19:08:01,393: topic[/control_markers/update_full] adding connection to [/interactive_marker_proxy], count 0
+[rospy.internal][INFO] 2017-06-09 19:09:09,912: topic[/joint_trajectory] adding connection to [http://ip-172-31-19-100:38390/], count 0
+[rospy.internal][INFO] 2017-06-09 19:09:09,918: topic[/motion_planning_goal] adding connection to [/move_arm_30475_1497060549514], count 0
+[rospy.internal][INFO] 2017-06-09 19:09:17,211: topic[/visualization_marker_array] adding connection to [/rosbridge_websocket], count 0
+[rospy.internal][INFO] 2017-06-09 19:09:17,263: topic[/control_markers/feedback] adding connection to [http://ip-172-31-19-100:59412/], count 0

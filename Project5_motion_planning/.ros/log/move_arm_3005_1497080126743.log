@@ -1,0 +1,42 @@
+[rospy.client][INFO] 2017-06-10 00:35:26,780: init_node, name[/move_arm_3005_1497080126743], pid[3005]
+[xmlrpc][INFO] 2017-06-10 00:35:26,781: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-10 00:35:26,784: Started XML-RPC server [http://ip-172-31-19-100:34071/]
+[rospy.init][INFO] 2017-06-10 00:35:26,784: ROS Slave URI: [http://ip-172-31-19-100:34071/]
+[rospy.impl.masterslave][INFO] 2017-06-10 00:35:26,788: _ready: http://ip-172-31-19-100:34071/
+[rospy.registration][INFO] 2017-06-10 00:35:26,796: Registering with master node http://localhost:33315
+[xmlrpc][INFO] 2017-06-10 00:35:26,796: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-06-10 00:35:26,891: registered with master
+[rospy.rosout][INFO] 2017-06-10 00:35:26,895: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-10 00:35:26,904: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-10 00:35:26,909: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-06-10 00:35:27,116: topic[/joint_states] adding connection to [http://ip-172-31-19-100:43737/], count 0
+[rospy.internal][INFO] 2017-06-10 00:35:27,117: topic[/motion_planning_goal] adding connection to [http://ip-172-31-19-100:41611/], count 0
+[rospy.internal][INFO] 2017-06-10 00:35:27,118: topic[/joint_trajectory] adding connection to [/marker_control_2266_1497080116806], count 0
+[rospy.internal][INFO] 2017-06-10 00:35:28,052: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-06-10 00:35:28,057: topic[/joint_trajectory] adding connection to [/robot_sim], count 1
+[rospy.internal][INFO] 2017-06-10 00:35:28,082: topic[/attached_collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-10 00:35:28,086: topic[/collision_object] adding connection to [/move_group], count 0
+[rosout][ERROR] 2017-06-10 00:35:42,279: bad callback: <bound method MoveArm.move_arm_cb of <__main__.MoveArm object at 0x7f5280ac5410>>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 372, in move_arm_cb
+    trajectory = self.project_plan(numpy.array(q_start), q_goal, self.q_min, self.q_max)
+  File "/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 357, in project_plan
+    q_list = self.motion_plan(q_start, q_goal, q_min, q_max)
+  File "/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 299, in motion_plan
+    closest_node, _ = self.get_closest_node(node, point, min_dist)
+  File "/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 225, in get_closest_node
+    d = distance_squared(children[i].value, point)
+NameError: global name 'distance_squared' is not defined
+
+[rospy.core][INFO] 2017-06-10 00:35:49,232: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-06-10 00:35:49,271: topic[/collision_object] removing connection to /move_group
+[rospy.internal][INFO] 2017-06-10 00:35:49,275: topic[/joint_trajectory] removing connection to /marker_control_2266_1497080116806
+[rospy.internal][INFO] 2017-06-10 00:35:49,279: topic[/joint_trajectory] removing connection to /robot_sim
+[rospy.internal][INFO] 2017-06-10 00:35:49,282: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-06-10 00:35:49,286: topic[/attached_collision_object] removing connection to /move_group
+[rospy.internal][INFO] 2017-06-10 00:35:49,290: topic[/motion_planning_goal] removing connection to http://ip-172-31-19-100:41611/
+[rospy.internal][INFO] 2017-06-10 00:35:49,293: topic[/joint_states] removing connection to http://ip-172-31-19-100:43737/
+[rospy.impl.masterslave][INFO] 2017-06-10 00:35:49,297: signal-2
+[rospy.core][INFO] 2017-06-10 00:35:49,915: signal_shutdown [atexit]

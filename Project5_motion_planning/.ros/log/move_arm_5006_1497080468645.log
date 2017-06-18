@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2017-06-10 00:41:08,685: init_node, name[/move_arm_5006_1497080468645], pid[5006]
+[xmlrpc][INFO] 2017-06-10 00:41:08,685: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-10 00:41:08,689: Started XML-RPC server [http://ip-172-31-26-229:54576/]
+[rospy.init][INFO] 2017-06-10 00:41:08,689: ROS Slave URI: [http://ip-172-31-26-229:54576/]
+[rospy.impl.masterslave][INFO] 2017-06-10 00:41:08,693: _ready: http://ip-172-31-26-229:54576/
+[rospy.registration][INFO] 2017-06-10 00:41:08,701: Registering with master node http://localhost:39266
+[xmlrpc][INFO] 2017-06-10 00:41:08,701: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-06-10 00:41:08,796: registered with master
+[rospy.rosout][INFO] 2017-06-10 00:41:08,801: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-10 00:41:08,811: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-10 00:41:08,816: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-06-10 00:41:09,034: topic[/motion_planning_goal] adding connection to [http://ip-172-31-26-229:60148/], count 0
+[rospy.internal][INFO] 2017-06-10 00:41:09,036: topic[/joint_states] adding connection to [http://ip-172-31-26-229:46768/], count 0
+[rospy.internal][INFO] 2017-06-10 00:41:09,038: topic[/joint_trajectory] adding connection to [/marker_control_2506_1497080399600], count 0
+[rospy.core][INFO] 2017-06-10 00:41:09,819: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-06-10 00:41:09,822: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-06-10 00:41:09,876: topic[/joint_trajectory] removing connection to /marker_control_2506_1497080399600
+[rospy.internal][INFO] 2017-06-10 00:41:09,881: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-06-10 00:41:09,885: topic[/motion_planning_goal] removing connection to http://ip-172-31-26-229:60148/
+[rospy.internal][INFO] 2017-06-10 00:41:09,888: topic[/joint_states] removing connection to http://ip-172-31-26-229:46768/
+[rospy.impl.masterslave][INFO] 2017-06-10 00:41:09,892: signal-2
+[rospy.core][INFO] 2017-06-10 00:41:10,461: signal_shutdown [atexit]

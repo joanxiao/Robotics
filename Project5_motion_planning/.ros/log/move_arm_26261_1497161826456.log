@@ -1,0 +1,28 @@
+[rospy.client][INFO] 2017-06-10 23:17:06,495: init_node, name[/move_arm_26261_1497161826456], pid[26261]
+[xmlrpc][INFO] 2017-06-10 23:17:06,495: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-10 23:17:06,499: Started XML-RPC server [http://ip-172-31-26-229:35933/]
+[rospy.init][INFO] 2017-06-10 23:17:06,500: ROS Slave URI: [http://ip-172-31-26-229:35933/]
+[rospy.impl.masterslave][INFO] 2017-06-10 23:17:06,504: _ready: http://ip-172-31-26-229:35933/
+[xmlrpc][INFO] 2017-06-10 23:17:06,513: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-06-10 23:17:06,513: Registering with master node http://localhost:55108
+[rospy.init][INFO] 2017-06-10 23:17:06,607: registered with master
+[rospy.rosout][INFO] 2017-06-10 23:17:06,611: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-10 23:17:06,620: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-10 23:17:06,625: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-06-10 23:17:06,844: topic[/joint_states] adding connection to [http://ip-172-31-26-229:57002/], count 0
+[rospy.internal][INFO] 2017-06-10 23:17:06,844: topic[/motion_planning_goal] adding connection to [http://ip-172-31-26-229:59401/], count 0
+[rospy.internal][INFO] 2017-06-10 23:17:06,845: topic[/joint_trajectory] adding connection to [/marker_control_4128_1497161684873], count 0
+[rospy.internal][INFO] 2017-06-10 23:17:07,800: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-06-10 23:17:07,804: topic[/joint_trajectory] adding connection to [/robot_sim], count 1
+[rospy.internal][INFO] 2017-06-10 23:17:07,843: topic[/attached_collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-10 23:17:07,847: topic[/collision_object] adding connection to [/move_group], count 0
+[rospy.core][INFO] 2017-06-10 23:19:19,125: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-06-10 23:19:19,156: topic[/collision_object] removing connection to /move_group
+[rospy.internal][INFO] 2017-06-10 23:19:19,160: topic[/joint_trajectory] removing connection to /marker_control_4128_1497161684873
+[rospy.internal][INFO] 2017-06-10 23:19:19,163: topic[/joint_trajectory] removing connection to /robot_sim
+[rospy.internal][INFO] 2017-06-10 23:19:19,168: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-06-10 23:19:19,171: topic[/attached_collision_object] removing connection to /move_group
+[rospy.internal][INFO] 2017-06-10 23:19:19,175: topic[/motion_planning_goal] removing connection to http://ip-172-31-26-229:59401/
+[rospy.internal][INFO] 2017-06-10 23:19:19,178: topic[/joint_states] removing connection to http://ip-172-31-26-229:57002/
+[rospy.impl.masterslave][INFO] 2017-06-10 23:19:19,181: signal-2
+[rospy.core][INFO] 2017-06-10 23:19:19,800: signal_shutdown [atexit]

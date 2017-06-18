@@ -1,0 +1,56 @@
+[rospy.client][INFO] 2017-06-10 00:15:35,683: init_node, name[/move_arm_1544_1497078935646], pid[1544]
+[xmlrpc][INFO] 2017-06-10 00:15:35,683: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-10 00:15:35,687: Started XML-RPC server [http://ip-172-31-19-100:58614/]
+[rospy.init][INFO] 2017-06-10 00:15:35,687: ROS Slave URI: [http://ip-172-31-19-100:58614/]
+[rospy.impl.masterslave][INFO] 2017-06-10 00:15:35,690: _ready: http://ip-172-31-19-100:58614/
+[xmlrpc][INFO] 2017-06-10 00:15:35,699: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-06-10 00:15:35,699: Registering with master node http://localhost:60180
+[rospy.init][INFO] 2017-06-10 00:15:35,794: registered with master
+[rospy.rosout][INFO] 2017-06-10 00:15:35,798: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-10 00:15:35,806: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-10 00:15:35,811: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-06-10 00:15:36,020: topic[/motion_planning_goal] adding connection to [http://ip-172-31-19-100:41828/], count 0
+[rospy.internal][INFO] 2017-06-10 00:15:36,020: topic[/joint_states] adding connection to [http://ip-172-31-19-100:57153/], count 0
+[rospy.internal][INFO] 2017-06-10 00:15:36,022: topic[/joint_trajectory] adding connection to [/marker_control_8946_1497076857451], count 0
+[rospy.internal][INFO] 2017-06-10 00:15:36,928: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-06-10 00:15:36,932: topic[/joint_trajectory] adding connection to [/robot_sim], count 1
+[rospy.internal][INFO] 2017-06-10 00:15:36,973: topic[/attached_collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-10 00:15:36,977: topic[/collision_object] adding connection to [/move_group], count 0
+[rosout][ERROR] 2017-06-10 00:15:40,449: bad callback: <bound method MoveArm.move_arm_cb of <__main__.MoveArm object at 0x7f9e7951d410>>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 370, in move_arm_cb
+    trajectory = self.project_plan(numpy.array(q_start), q_goal, self.q_min, self.q_max)
+  File "/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 355, in project_plan
+    q_list = self.motion_plan(q_start, q_goal, q_min, q_max)
+  File "/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 302, in motion_plan
+    if self.is_collision_free(closest_node.value, point):
+  File "/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 269, in is_collision_free
+    print('c={} v_check_point={} v2={} equal={}'.format(c, v_check_point, v2), numpy.array_equal(v_check_point, v2))
+IndexError: tuple index out of range
+
+[rospy.core][INFO] 2017-06-10 00:16:11,508: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-06-10 00:16:11,542: topic[/collision_object] removing connection to /move_group
+[rospy.internal][INFO] 2017-06-10 00:16:11,545: topic[/joint_trajectory] removing connection to /marker_control_8946_1497076857451
+[rospy.internal][INFO] 2017-06-10 00:16:11,549: topic[/joint_trajectory] removing connection to /robot_sim
+[rospy.internal][INFO] 2017-06-10 00:16:11,554: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-06-10 00:16:11,558: topic[/attached_collision_object] removing connection to /move_group
+[rospy.internal][INFO] 2017-06-10 00:16:11,562: topic[/motion_planning_goal] removing connection to http://ip-172-31-19-100:41828/
+[rospy.internal][WARNING] 2017-06-10 00:16:11,563: Unknown error initiating TCP/IP socket to ip-172-31-19-100:49113 (http://ip-172-31-19-100:41828/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2017-06-10 00:16:11,565: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 807, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2017-06-10 00:16:11,573: topic[/joint_states] removing connection to http://ip-172-31-19-100:57153/
+[rospy.impl.masterslave][INFO] 2017-06-10 00:16:11,577: signal-2
+[rospy.core][INFO] 2017-06-10 00:16:12,152: signal_shutdown [atexit]

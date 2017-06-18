@@ -1,0 +1,18 @@
+[rospy.client][INFO] 2017-06-10 22:54:52,537: init_node, name[/move_arm_1976_1497160492456], pid[1976]
+[xmlrpc][INFO] 2017-06-10 22:54:52,538: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-10 22:54:52,542: Started XML-RPC server [http://ip-172-31-19-100:60418/]
+[rospy.impl.masterslave][INFO] 2017-06-10 22:54:52,546: _ready: http://ip-172-31-19-100:60418/
+[rospy.init][INFO] 2017-06-10 22:54:52,542: ROS Slave URI: [http://ip-172-31-19-100:60418/]
+[xmlrpc][INFO] 2017-06-10 22:54:52,552: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-06-10 22:54:52,552: Registering with master node http://localhost:53824
+[rospy.init][INFO] 2017-06-10 22:54:52,655: registered with master
+[rospy.rosout][INFO] 2017-06-10 22:54:52,658: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-10 22:54:52,669: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-10 22:54:52,677: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-06-10 22:54:52,975: topic[/joint_states] adding connection to [http://ip-172-31-19-100:53865/], count 0
+[rospy.internal][INFO] 2017-06-10 22:54:52,981: topic[/motion_planning_goal] adding connection to [http://ip-172-31-19-100:50402/], count 0
+[rospy.internal][INFO] 2017-06-10 22:54:52,982: topic[/joint_trajectory] adding connection to [/marker_control_22947_1497159988180], count 0
+[rospy.internal][INFO] 2017-06-10 22:54:54,035: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-06-10 22:54:54,047: topic[/joint_trajectory] adding connection to [/robot_sim], count 1
+[rospy.internal][INFO] 2017-06-10 22:54:54,051: topic[/attached_collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-10 22:54:54,055: topic[/collision_object] adding connection to [/move_group], count 0

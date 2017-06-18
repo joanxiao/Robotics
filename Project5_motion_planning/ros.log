@@ -1,0 +1,276 @@
+ROSCORE: ... logging to /home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/.ros/log/4023db9e-4e6d-11e7-98db-06b0869cc04d/roslaunch-ip-172-31-26-229-3823.log
+ROSCORE: Checking log directory for disk usage. This may take awhile.
+ROSCORE: Press Ctrl-C to interrupt
+ROSCORE: Done checking log file disk usage. Usage is <1GB.
+ROSCORE: ]2;roscore
+ROSCORE: [1mstarted roslaunch server http://ip-172-31-26-229:36362/[0m
+ROSCORE: ros_comm version 1.11.20
+ROSCORE: 
+ROSCORE: 
+ROSCORE: SUMMARY
+ROSCORE: ========
+ROSCORE: 
+ROSCORE: PARAMETERS
+ROSCORE:  * /rosdistro: indigo
+ROSCORE:  * /rosversion: 1.11.20
+ROSCORE: 
+ROSCORE: NODES
+ROSCORE: 
+ROSCORE: auto-starting new master
+ROSCORE: [1mprocess[master]: started with pid [3839][0m
+ROSCORE: [1mROS_MASTER_URI=http://ip-172-31-26-229:55108/[0m
+ROSCORE: ]2;roscore http://ip-172-31-26-229:55108/
+ROSCORE: [1msetting /run_id to 4023db9e-4e6d-11e7-98db-06b0869cc04d[0m
+ROSCORE: [1mprocess[rosout-1]: started with pid [3852][0m
+ROSCORE: started core service [/rosout]
+BR: Port for WebSocketServer: 35001
+BR: Running cmd: roslaunch rosbridge_server rosbridge_websocket.launch port:=35001
+BR: ... logging to /home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/.ros/log/4023db9e-4e6d-11e7-98db-06b0869cc04d/roslaunch-ip-172-31-26-229-3926.log
+BR: Checking log directory for disk usage. This may take awhile.
+BR: Press Ctrl-C to interrupt
+BR: Done checking log file disk usage. Usage is <1GB.
+BR: ]2;/opt/ros/indigo/share/rosbridge_server/launch/rosbridge_websocket.launch
+BR: [1mstarted roslaunch server http://ip-172-31-26-229:49188/[0m
+BR: 
+BR: SUMMARY
+BR: ========
+BR: 
+BR: PARAMETERS
+BR:  * /rosbridge_websocket/address: 
+BR:  * /rosbridge_websocket/authenticate: False
+BR:  * /rosbridge_websocket/delay_between_messages: 0
+BR:  * /rosbridge_websocket/fragment_timeout: 600
+BR:  * /rosbridge_websocket/max_message_size: None
+BR:  * /rosbridge_websocket/port: 35001
+BR:  * /rosbridge_websocket/retry_startup_delay: 5
+BR:  * /rosdistro: indigo
+BR:  * /rosversion: 1.11.20
+BR: 
+BR: NODES
+BR:   /
+BR:     rosapi (rosapi/rosapi_node)
+BR:     rosbridge_websocket (rosbridge_server/rosbridge_websocket)
+BR: 
+BR: [1mROS_MASTER_URI=http://localhost:55108[0m
+BR: ]2;/opt/ros/indigo/share/rosbridge_server/launch/rosbridge_websocket.launch http://localhost:55108
+BR: core service [/rosout] found
+BR: [1mprocess[rosbridge_websocket-1]: started with pid [3944][0m
+BR: [1mprocess[rosapi-2]: started with pid [3945][0m
+BR: registered capabilities (classes):
+BR:  - rosbridge_library.capabilities.call_service.CallService
+BR:  - rosbridge_library.capabilities.advertise.Advertise
+BR:  - rosbridge_library.capabilities.publish.Publish
+BR:  - rosbridge_library.capabilities.subscribe.Subscribe
+BR:  - <class 'rosbridge_library.capabilities.defragmentation.Defragment'>
+BR:  - rosbridge_library.capabilities.advertise_service.AdvertiseService
+BR:  - rosbridge_library.capabilities.service_response.ServiceResponse
+BR:  - rosbridge_library.capabilities.unadvertise_service.UnadvertiseService
+BR: the rosdep view is empty: call 'sudo rosdep init' and 'rosdep update'
+PROXY: [0m[ INFO] [1497161682.342282443]: Subscribing to /control_markers[0m
+PROXY: [0m[ INFO] [1497161682.342461220]: Target frame set to /world_link[0m
+PROXY: [0m[ INFO] [1497161682.346262968]: (INFO) General: Waiting for messages.[0m
+BR: [INFO] [WallTime: 1497161682.532628] Rosbridge WebSocket server started on port 35001
+KUKA: ... logging to /home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/.ros/log/4023db9e-4e6d-11e7-98db-06b0869cc04d/roslaunch-ip-172-31-26-229-4103.log
+KUKA: Checking log directory for disk usage. This may take awhile.
+KUKA: Press Ctrl-C to interrupt
+KUKA: Done checking log file disk usage. Usage is <1GB.
+KUKA: ]2;/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/launch/mp.launch
+KUKA: [1mstarted roslaunch server http://ip-172-31-26-229:54096/[0m
+KUKA: 
+KUKA: SUMMARY
+KUKA: ========
+KUKA: 
+KUKA: PARAMETERS
+KUKA:  * /move_group/allow_trajectory_execution: False
+KUKA:  * /move_group/capabilities: move_group/MoveGr...
+KUKA:  * /move_group/jiggle_fraction: 0.05
+KUKA:  * /move_group/lwr_arm/longest_valid_segment_fraction: 0.05
+KUKA:  * /move_group/lwr_arm/planner_configs: ['SBLkConfigDefau...
+KUKA:  * /move_group/lwr_arm/projection_evaluator: joints(lwr_arm_0_...
+KUKA:  * /move_group/max_safe_path_cost: 1
+KUKA:  * /move_group/planner_configs/BKPIECEkConfigDefault/border_fraction: 0.9
+KUKA:  * /move_group/planner_configs/BKPIECEkConfigDefault/failed_expansion_score_factor: 0.5
+KUKA:  * /move_group/planner_configs/BKPIECEkConfigDefault/min_valid_path_fraction: 0.5
+KUKA:  * /move_group/planner_configs/BKPIECEkConfigDefault/range: 0.0
+KUKA:  * /move_group/planner_configs/BKPIECEkConfigDefault/type: geometric::BKPIECE
+KUKA:  * /move_group/planner_configs/ESTkConfigDefault/goal_bias: 0.05
+KUKA:  * /move_group/planner_configs/ESTkConfigDefault/range: 0.0
+KUKA:  * /move_group/planner_configs/ESTkConfigDefault/type: geometric::EST
+KUKA:  * /move_group/planner_configs/KPIECEkConfigDefault/border_fraction: 0.9
+KUKA:  * /move_group/planner_configs/KPIECEkConfigDefault/failed_expansion_score_factor: 0.5
+KUKA:  * /move_group/planner_configs/KPIECEkConfigDefault/goal_bias: 0.05
+KUKA:  * /move_group/planner_configs/KPIECEkConfigDefault/min_valid_path_fraction: 0.5
+KUKA:  * /move_group/planner_configs/KPIECEkConfigDefault/range: 0.0
+KUKA:  * /move_group/planner_configs/KPIECEkConfigDefault/type: geometric::KPIECE
+KUKA:  * /move_group/planner_configs/LBKPIECEkConfigDefault/border_fraction: 0.9
+KUKA:  * /move_group/planner_configs/LBKPIECEkConfigDefault/min_valid_path_fraction: 0.5
+KUKA:  * /move_group/planner_configs/LBKPIECEkConfigDefault/range: 0.0
+KUKA:  * /move_group/planner_configs/LBKPIECEkConfigDefault/type: geometric::LBKPIECE
+KUKA:  * /move_group/planner_configs/PRMkConfigDefault/max_nearest_neighbors: 10
+KUKA:  * /move_group/planner_configs/PRMkConfigDefault/type: geometric::PRM
+KUKA:  * /move_group/planner_configs/PRMstarkConfigDefault/type: geometric::PRMstar
+KUKA:  * /move_group/planner_configs/RRTConnectkConfigDefault/range: 0.0
+KUKA:  * /move_group/planner_configs/RRTConnectkConfigDefault/type: geometric::RRTCon...
+KUKA:  * /move_group/planner_configs/RRTkConfigDefault/goal_bias: 0.05
+KUKA:  * /move_group/planner_configs/RRTkConfigDefault/range: 0.0
+KUKA:  * /move_group/planner_configs/RRTkConfigDefault/type: geometric::RRT
+KUKA:  * /move_group/planner_configs/RRTstarkConfigDefault/delay_collision_checking: 1
+KUKA:  * /move_group/planner_configs/RRTstarkConfigDefault/goal_bias: 0.05
+KUKA:  * /move_group/planner_configs/RRTstarkConfigDefault/range: 0.0
+KUKA:  * /move_group/planner_configs/RRTstarkConfigDefault/type: geometric::RRTstar
+KUKA:  * /move_group/planner_configs/SBLkConfigDefault/range: 0.0
+KUKA:  * /move_group/planner_configs/SBLkConfigDefault/type: geometric::SBL
+KUKA:  * /move_group/planner_configs/TRRTkConfigDefault/frountierNodeRatio: 0.1
+KUKA:  * /move_group/planner_configs/TRRTkConfigDefault/frountier_threshold: 0.0
+KUKA:  * /move_group/planner_configs/TRRTkConfigDefault/goal_bias: 0.05
+KUKA:  * /move_group/planner_configs/TRRTkConfigDefault/init_temperature: 10e-6
+KUKA:  * /move_group/planner_configs/TRRTkConfigDefault/k_constant: 0.0
+KUKA:  * /move_group/planner_configs/TRRTkConfigDefault/max_states_failed: 10
+KUKA:  * /move_group/planner_configs/TRRTkConfigDefault/min_temperature: 10e-10
+KUKA:  * /move_group/planner_configs/TRRTkConfigDefault/range: 0.0
+KUKA:  * /move_group/planner_configs/TRRTkConfigDefault/temp_change_factor: 2.0
+KUKA:  * /move_group/planner_configs/TRRTkConfigDefault/type: geometric::TRRT
+KUKA:  * /move_group/planning_plugin: ompl_interface/OM...
+KUKA:  * /move_group/planning_scene_monitor/publish_geometry_updates: True
+KUKA:  * /move_group/planning_scene_monitor/publish_planning_scene: True
+KUKA:  * /move_group/planning_scene_monitor/publish_state_updates: True
+KUKA:  * /move_group/planning_scene_monitor/publish_transforms_updates: True
+KUKA:  * /move_group/request_adapters: default_planner_r...
+KUKA:  * /move_group/start_state_max_bounds_error: 0.1
+KUKA:  * /robot_description: <?xml version="1....
+KUKA:  * /robot_description_kinematics/lwr_arm/kinematics_solver: kdl_kinematics_pl...
+KUKA:  * /robot_description_kinematics/lwr_arm/kinematics_solver_attempts: 3
+KUKA:  * /robot_description_kinematics/lwr_arm/kinematics_solver_search_resolution: 0.005
+KUKA:  * /robot_description_kinematics/lwr_arm/kinematics_solver_timeout: 0.005
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_0_joint/has_acceleration_limits: False
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_0_joint/has_velocity_limits: True
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_0_joint/max_acceleration: 0
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_0_joint/max_velocity: 1.91986217719
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_1_joint/has_acceleration_limits: False
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_1_joint/has_velocity_limits: True
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_1_joint/max_acceleration: 0
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_1_joint/max_velocity: 1.91986217719
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_2_joint/has_acceleration_limits: False
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_2_joint/has_velocity_limits: True
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_2_joint/max_acceleration: 0
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_2_joint/max_velocity: 2.26892802759
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_3_joint/has_acceleration_limits: False
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_3_joint/has_velocity_limits: True
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_3_joint/max_acceleration: 0
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_3_joint/max_velocity: 2.26892802759
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_4_joint/has_acceleration_limits: False
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_4_joint/has_velocity_limits: True
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_4_joint/max_acceleration: 0
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_4_joint/max_velocity: 2.26892802759
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_5_joint/has_acceleration_limits: False
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_5_joint/has_velocity_limits: True
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_5_joint/max_acceleration: 0
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_5_joint/max_velocity: 3.14159265359
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_6_joint/has_acceleration_limits: False
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_6_joint/has_velocity_limits: True
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_6_joint/max_acceleration: 0
+KUKA:  * /robot_description_planning/joint_limits/lwr_arm_6_joint/max_velocity: 3.14159265359
+KUKA:  * /robot_description_semantic: <?xml version="1....
+KUKA:  * /rosdistro: indigo
+KUKA:  * /rosversion: 1.11.20
+KUKA: 
+KUKA: NODES
+KUKA:   /
+KUKA:     move_group (moveit_ros_move_group/move_group)
+KUKA:     robot_sim (robot_sim/robot_sim_bringup)
+KUKA:     robot_state_publisher (robot_state_publisher/robot_state_publisher)
+KUKA: 
+KUKA: [1mROS_MASTER_URI=http://ip-172-31-26-229:55108/[0m
+KUKA: ]2;/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/launch/mp.launch http://ip-172-31-26-229:55108/
+KUKA: core service [/rosout] found
+KUKA: [1mprocess[robot_sim-1]: started with pid [4137][0m
+KUKA: [1mprocess[robot_state_publisher-2]: started with pid [4138][0m
+KUKA: [0m[ INFO] [1497161684.459494196]: Robot model read with 7 non-fixed joints.[0m
+KUKA: [1mprocess[move_group-3]: started with pid [4164][0m
+KUKA: [0m[ INFO] [1497161684.519136986]: Simulated robot spinning[0m
+KUKA: [33m[ WARN] [1497161684.519159952]: The root link world_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.[0m
+KUKA: [0m[ INFO] [1497161684.799014952]: Loading robot model 'lwr'...[0m
+KUKA: [0m[ INFO] [1497161684.799114113]: No root/virtual joint specified in SRDF. Assuming fixed joint[0m
+KUKA: [33m[ WARN] [1497161684.804759327]: Could not identify parent group for end-effector 'end_effector'[0m
+KUKA: [0m[ INFO] [1497161684.916259412]: Loading robot model 'lwr'...[0m
+KUKA: [0m[ INFO] [1497161684.916429386]: No root/virtual joint specified in SRDF. Assuming fixed joint[0m
+KUKA: [33m[ WARN] [1497161684.917108558]: Could not identify parent group for end-effector 'end_effector'[0m
+KUKA: [33m[ WARN] [1497161684.917236962]: The root link world_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.[0m
+KUKA: [0m[ INFO] [1497161684.975841176]: Publishing maintained planning scene on 'monitored_planning_scene'[0m
+KUKA: [0m[ INFO] [1497161685.006157653]: MoveGroup debug mode is OFF[0m
+KUKA: [96mStarting context monitors...
+KUKA: [0m[0m[ INFO] [1497161685.006204503]: Starting scene monitor[0m
+KUKA: [0m[ INFO] [1497161685.015158126]: Listening to '/planning_scene'[0m
+KUKA: [0m[ INFO] [1497161685.015207051]: Starting world geometry monitor[0m
+KUKA: [0m[ INFO] [1497161685.024866467]: Listening to '/collision_object' using message notifier with target frame '/world_link '[0m
+KUKA: [0m[ INFO] [1497161685.035129268]: Listening to '/planning_scene_world' for planning scene world geometry[0m
+KUKA: [33m[ WARN] [1497161685.036072634]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead[0m
+KUKA: [0m[ INFO] [1497161685.066663403]: Listening to '/attached_collision_object' for attached collision objects[0m
+KUKA: [96mContext monitors started.
+KUKA: [0m[0m[ INFO] [1497161685.136151033]: Initializing OMPL interface using ROS parameters[0m
+KUKA: [0m[ INFO] [1497161685.222951000]: Using planning interface 'OMPL'[0m
+KUKA: [0m[ INFO] [1497161685.262627693]: Param 'default_workspace_bounds' was not set. Using default value: 10[0m
+KUKA: [0m[ INFO] [1497161685.263640566]: Param 'start_state_max_bounds_error' was set to 0.1[0m
+KUKA: [0m[ INFO] [1497161685.264564138]: Param 'start_state_max_dt' was not set. Using default value: 0.5[0m
+KUKA: [0m[ INFO] [1497161685.265561957]: Param 'start_state_max_dt' was not set. Using default value: 0.5[0m
+KUKA: [0m[ INFO] [1497161685.266359735]: Param 'jiggle_fraction' was set to 0.05[0m
+KUKA: [0m[ INFO] [1497161685.267141598]: Param 'max_sampling_attempts' was not set. Using default value: 100[0m
+KUKA: [0m[ INFO] [1497161685.267210966]: Using planning request adapter 'Add Time Parameterization'[0m
+KUKA: [0m[ INFO] [1497161685.267241628]: Using planning request adapter 'Fix Workspace Bounds'[0m
+KUKA: [0m[ INFO] [1497161685.267263920]: Using planning request adapter 'Fix Start State Bounds'[0m
+KUKA: [0m[ INFO] [1497161685.267291737]: Using planning request adapter 'Fix Start State In Collision'[0m
+KUKA: [0m[ INFO] [1497161685.267311187]: Using planning request adapter 'Fix Start State Path Constraints'[0m
+KUKA: [96mLoading 'move_group/ApplyPlanningSceneService'...
+KUKA: [0m[96mLoading 'move_group/ClearOctomapService'...
+KUKA: [0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
+KUKA: [0m[96mLoading 'move_group/MoveGroupExecuteService'...
+KUKA: [0m[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...
+KUKA: [0m[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...
+KUKA: [0m[96mLoading 'move_group/MoveGroupKinematicsService'...
+KUKA: [0m[96mLoading 'move_group/MoveGroupMoveAction'...
+KUKA: [0m[96mLoading 'move_group/MoveGroupPickPlaceAction'...
+KUKA: [0m[96mLoading 'move_group/MoveGroupPlanService'...
+KUKA: [0m[96mLoading 'move_group/MoveGroupQueryPlannersService'...
+KUKA: [0m[96mLoading 'move_group/MoveGroupStateValidationService'...
+KUKA: [0m[0m[ INFO] [1497161685.569202105]: 
+KUKA: 
+KUKA: ********************************************************
+KUKA: * MoveGroup using: 
+KUKA: *     - ApplyPlanningSceneService
+KUKA: *     - ClearOctomapService
+KUKA: *     - CartesianPathService
+KUKA: *     - ExecuteTrajectoryService
+KUKA: *     - ExecuteTrajectoryAction
+KUKA: *     - GetPlanningSceneService
+KUKA: *     - KinematicsService
+KUKA: *     - MoveAction
+KUKA: *     - PickPlaceAction
+KUKA: *     - MotionPlanService
+KUKA: *     - QueryPlannersService
+KUKA: *     - StateValidationService
+KUKA: ********************************************************
+KUKA: [0m
+KUKA: [0m[ INFO] [1497161685.569294367]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner[0m
+KUKA: [0m[ INFO] [1497161685.569328465]: MoveGroup context initialization complete[0m
+KUKA: [92m
+KUKA: All is well! Everyone is happy! You can start planning now!
+KUKA: 
+PROXY: [0m[ INFO] [1497161685.636830355]: (INFO) General: Receiving messages.[0m
+PROXY: [0m[ INFO] [1497161685.636886178]: (INFO) /marker_control_4128_1497161684873: Waiting for init message.[0m
+PROXY: [0m[ INFO] [1497161685.840825522]: (INFO) /marker_control_4128_1497161684873: Init message received.[0m
+PROXY: [0m[ INFO] [1497161685.856841551]: (INFO) /marker_control_4128_1497161684873: Receiving updates.[0m
+BR: [INFO] [WallTime: 1497161686.067895] Client connected.  1 clients total.
+BR: the rosdep view is empty: call 'sudo rosdep init' and 'rosdep update'
+BR: [INFO] [WallTime: 1497161686.210675] [Client 0] Subscribed to /tf2_web_republisher/feedback
+BR: [INFO] [WallTime: 1497161686.228263] [Client 0] Subscribed to /visualization_marker_array
+BR: [INFO] [WallTime: 1497161686.243354] [Client 0] Subscribed to /control_markers/tunneled/update
+PROXY: [0m[ INFO] [1497161686.262866484]: Init requested.[0m
+BR: [INFO] [WallTime: 1497161686.351724] [Client 0] Subscribed to /tf2_web_republisher/feedback
+BR: [INFO] [WallTime: 1497161686.362176] [Client 0] Subscribed to /tf2_web_republisher/feedback
+BR: [INFO] [WallTime: 1497161686.366431] [Client 0] Subscribed to /tf2_web_republisher/feedback
+BR: [INFO] [WallTime: 1497161686.370898] [Client 0] Subscribed to /tf2_web_republisher/feedback
+BR: [INFO] [WallTime: 1497161686.376317] [Client 0] Subscribed to /tf2_web_republisher/feedback
+BR: [INFO] [WallTime: 1497161686.389942] [Client 0] Subscribed to /tf2_web_republisher/feedback
+BR: [INFO] [WallTime: 1497161686.394918] [Client 0] Subscribed to /tf2_web_republisher/feedback
+KUKA: [0m[33m[ WARN] [1497161705.845755004]: MessageFilter [target=/world_link ]: Discarding message from [/marker_control_4128_1497161684873] due to empty frame_id.  This message will only print once.[0m
+PROXY: [0m[ INFO] [1497161706.357003634]: (INFO) /marker_control_4128_1497161684873: OK[0m

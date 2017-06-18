@@ -1,0 +1,41 @@
+[rospy.client][INFO] 2017-06-10 23:00:33,518: init_node, name[/move_arm_15484_1497160833475], pid[15484]
+[xmlrpc][INFO] 2017-06-10 23:00:33,519: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-10 23:00:33,523: Started XML-RPC server [http://ip-172-31-19-100:35573/]
+[rospy.init][INFO] 2017-06-10 23:00:33,523: ROS Slave URI: [http://ip-172-31-19-100:35573/]
+[rospy.impl.masterslave][INFO] 2017-06-10 23:00:33,527: _ready: http://ip-172-31-19-100:35573/
+[xmlrpc][INFO] 2017-06-10 23:00:33,537: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-06-10 23:00:33,538: Registering with master node http://localhost:52840
+[rospy.init][INFO] 2017-06-10 23:00:33,631: registered with master
+[rospy.rosout][INFO] 2017-06-10 23:00:33,635: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-10 23:00:33,644: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-10 23:00:33,648: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-06-10 23:00:33,916: topic[/joint_states] adding connection to [http://ip-172-31-19-100:39134/], count 0
+[rospy.internal][INFO] 2017-06-10 23:00:33,918: topic[/motion_planning_goal] adding connection to [http://ip-172-31-19-100:58210/], count 0
+[rospy.internal][INFO] 2017-06-10 23:00:33,921: topic[/joint_trajectory] adding connection to [/marker_control_13197_1497160694578], count 0
+[rospy.internal][INFO] 2017-06-10 23:00:34,781: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-06-10 23:00:34,785: topic[/joint_trajectory] adding connection to [/robot_sim], count 1
+[rospy.internal][INFO] 2017-06-10 23:00:34,877: topic[/collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-10 23:00:34,881: topic[/attached_collision_object] adding connection to [/move_group], count 0
+[rosout][ERROR] 2017-06-10 23:00:44,971: bad callback: <bound method MoveArm.move_arm_cb of <__main__.MoveArm object at 0x7f69e14fc550>>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 386, in move_arm_cb
+    trajectory = self.project_plan(numpy.array(q_start), q_goal, self.q_min, self.q_max)
+  File "/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 371, in project_plan
+    q_list = self.motion_plan(q_start, q_goal, q_min, q_max)
+  File "/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 339, in motion_plan
+    del q_list[i]
+IndexError: list assignment index out of range
+
+[rospy.core][INFO] 2017-06-10 23:00:46,257: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-06-10 23:00:46,302: topic[/collision_object] removing connection to /move_group
+[rospy.internal][INFO] 2017-06-10 23:00:46,306: topic[/joint_trajectory] removing connection to /marker_control_13197_1497160694578
+[rospy.internal][INFO] 2017-06-10 23:00:46,309: topic[/joint_trajectory] removing connection to /robot_sim
+[rospy.internal][INFO] 2017-06-10 23:00:46,313: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-06-10 23:00:46,317: topic[/attached_collision_object] removing connection to /move_group
+[rospy.internal][INFO] 2017-06-10 23:00:46,321: topic[/motion_planning_goal] removing connection to http://ip-172-31-19-100:58210/
+[rospy.internal][INFO] 2017-06-10 23:00:46,325: topic[/joint_states] removing connection to http://ip-172-31-19-100:39134/
+[rospy.impl.masterslave][INFO] 2017-06-10 23:00:46,329: signal-2
+[rospy.core][INFO] 2017-06-10 23:00:46,912: signal_shutdown [signal-2]
+[rospy.core][INFO] 2017-06-10 23:00:46,919: signal_shutdown [atexit]

@@ -1,0 +1,46 @@
+[rospy.client][INFO] 2017-06-09 19:00:42,501: init_node, name[/move_arm_7824_1497060042452], pid[7824]
+[xmlrpc][INFO] 2017-06-09 19:00:42,502: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-09 19:00:42,505: Started XML-RPC server [http://ip-172-31-19-100:52130/]
+[rospy.init][INFO] 2017-06-09 19:00:42,506: ROS Slave URI: [http://ip-172-31-19-100:52130/]
+[rospy.impl.masterslave][INFO] 2017-06-09 19:00:42,509: _ready: http://ip-172-31-19-100:52130/
+[xmlrpc][INFO] 2017-06-09 19:00:42,519: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-06-09 19:00:42,520: Registering with master node http://localhost:37427
+[rospy.init][INFO] 2017-06-09 19:00:42,612: registered with master
+[rospy.rosout][INFO] 2017-06-09 19:00:42,616: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-09 19:00:42,625: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-09 19:00:42,630: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-06-09 19:00:42,901: topic[/joint_states] adding connection to [http://ip-172-31-19-100:47311/], count 0
+[rospy.internal][INFO] 2017-06-09 19:00:42,903: topic[/motion_planning_goal] adding connection to [http://ip-172-31-19-100:38675/], count 0
+[rospy.internal][INFO] 2017-06-09 19:00:42,908: topic[/joint_trajectory] adding connection to [/marker_control_13450_1497058913346], count 0
+[rospy.internal][INFO] 2017-06-09 19:00:43,923: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-06-09 19:00:43,927: topic[/joint_trajectory] adding connection to [/robot_sim], count 1
+[rospy.internal][INFO] 2017-06-09 19:00:43,956: topic[/attached_collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-09 19:00:43,960: topic[/collision_object] adding connection to [/move_group], count 0
+[rospy.core][INFO] 2017-06-09 19:04:51,405: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-06-09 19:04:51,436: topic[/collision_object] removing connection to /move_group
+[rospy.internal][INFO] 2017-06-09 19:04:51,440: topic[/joint_trajectory] removing connection to /marker_control_13450_1497058913346
+[rospy.internal][INFO] 2017-06-09 19:04:51,443: topic[/joint_trajectory] removing connection to /robot_sim
+[rospy.internal][INFO] 2017-06-09 19:04:51,448: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-06-09 19:04:51,452: topic[/attached_collision_object] removing connection to /move_group
+[rospy.internal][INFO] 2017-06-09 19:04:51,458: topic[/motion_planning_goal] removing connection to http://ip-172-31-19-100:38675/
+[rospy.internal][INFO] 2017-06-09 19:04:51,462: topic[/joint_states] removing connection to http://ip-172-31-19-100:47311/
+[rospy.impl.masterslave][INFO] 2017-06-09 19:04:51,467: signal-2
+[rospy.topics][WARNING] 2017-06-09 19:04:51,478: during shutdown, bad callback: <bound method MoveArm.move_arm_cb of <__main__.MoveArm object at 0x7f695a8ca3d0>>
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 342, in move_arm_cb
+    return
+  File "/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 327, in project_plan
+  File "/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 283, in motion_plan
+  File "/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 252, in is_collision_free
+    if not self.is_state_valid(check_point):
+  File "/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 203, in is_state_valid
+    res = self.state_valid_service(req)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_service.py", line 435, in __call__
+    return self.call(*args, **kwds)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_service.py", line 517, in call
+    raise ServiceException("service [%s] returned no response"%self.resolved_name)
+ServiceException: service [/check_state_validity] returned no response
+
+[rospy.core][INFO] 2017-06-09 19:04:52,037: signal_shutdown [atexit]

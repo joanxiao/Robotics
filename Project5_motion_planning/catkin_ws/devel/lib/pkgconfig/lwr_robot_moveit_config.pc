@@ -1,0 +1,8 @@
+prefix=/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/devel
+
+Name: lwr_robot_moveit_config
+Description: Description of lwr_robot_moveit_config
+Version: 0.2.0
+Cflags: 
+Libs: -L/home/ccc_v1_w_dd4cc_18220/asn13529_Project_5/asn13530_Project_4/work/catkin_ws/devel/lib 
+Requires: 

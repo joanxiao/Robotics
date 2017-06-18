@@ -1,0 +1,152 @@
+[rospy.client][INFO] 2017-06-09 18:00:58,710: init_node, name[/marker_control_9450_1497056458652], pid[9450]
+[xmlrpc][INFO] 2017-06-09 18:00:58,710: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-06-09 18:00:58,716: Started XML-RPC server [http://ip-172-31-19-100:37719/]
+[rospy.init][INFO] 2017-06-09 18:00:58,716: ROS Slave URI: [http://ip-172-31-19-100:37719/]
+[rospy.impl.masterslave][INFO] 2017-06-09 18:00:58,721: _ready: http://ip-172-31-19-100:37719/
+[xmlrpc][INFO] 2017-06-09 18:00:58,728: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-06-09 18:00:58,729: Registering with master node http://localhost:52701
+[rospy.init][INFO] 2017-06-09 18:00:58,825: registered with master
+[rospy.rosout][INFO] 2017-06-09 18:00:58,829: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-06-09 18:00:58,838: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-06-09 18:00:58,844: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-06-09 18:00:59,046: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-06-09 18:00:59,138: topic[/control_markers/update] adding connection to [/interactive_marker_proxy], count 0
+[rospy.internal][INFO] 2017-06-09 18:00:59,150: topic[/collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-09 18:00:59,154: topic[/attached_collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2017-06-09 18:00:59,541: topic[/control_markers/update_full] adding connection to [/interactive_marker_proxy], count 0
+[rospy.internal][INFO] 2017-06-09 18:01:47,372: topic[/visualization_marker_array] adding connection to [/rosbridge_websocket], count 0
+[rospy.internal][INFO] 2017-06-09 18:01:47,386: topic[/control_markers/feedback] adding connection to [http://ip-172-31-19-100:42201/], count 0
+[rospy.internal][INFO] 2017-06-09 18:04:21,005: topic[/joint_trajectory] adding connection to [http://ip-172-31-19-100:34779/], count 0
+[rospy.internal][INFO] 2017-06-09 18:04:21,010: topic[/motion_planning_goal] adding connection to [/move_arm_11666_1497056660593], count 0
+[rospy.internal][ERROR] 2017-06-09 18:05:09,931: Unable to initiate TCP/IP socket to ip-172-31-19-100:49363 (http://ip-172-31-19-100:34779/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rosout][WARNING] 2017-06-09 18:05:09,947: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2017-06-09 18:05:09,952: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][WARNING] 2017-06-09 18:05:11,137: Unknown error initiating TCP/IP socket to ip-172-31-19-100:49363 (http://ip-172-31-19-100:34779/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2017-06-09 18:05:11,141: topic[/joint_trajectory] removing connection to http://ip-172-31-19-100:34779/
+[rospy.internal][INFO] 2017-06-09 18:05:13,985: topic[/joint_trajectory] adding connection to [http://ip-172-31-19-100:40595/], count 0
+[rospy.internal][INFO] 2017-06-09 18:05:14,894: topic[/motion_planning_goal] adding connection to [/move_arm_12273_1497056713587], count 1
+[rospy.internal][ERROR] 2017-06-09 18:06:02,865: Unable to initiate TCP/IP socket to ip-172-31-19-100:43368 (http://ip-172-31-19-100:40595/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rosout][WARNING] 2017-06-09 18:06:03,540: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2017-06-09 18:06:03,547: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][WARNING] 2017-06-09 18:06:04,032: Unknown error initiating TCP/IP socket to ip-172-31-19-100:43368 (http://ip-172-31-19-100:40595/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2017-06-09 18:06:04,036: topic[/joint_trajectory] removing connection to http://ip-172-31-19-100:40595/
+[rospy.internal][INFO] 2017-06-09 18:06:07,482: topic[/joint_trajectory] adding connection to [http://ip-172-31-19-100:44163/], count 0
+[rospy.internal][INFO] 2017-06-09 18:06:07,488: topic[/motion_planning_goal] adding connection to [/move_arm_12774_1497056767085], count 2
+[rospy.internal][INFO] 2017-06-09 18:06:07,492: topic[/motion_planning_goal] removing connection to /move_arm_11666_1497056660593
+[rospy.internal][ERROR] 2017-06-09 18:06:57,432: Unable to initiate TCP/IP socket to ip-172-31-19-100:59274 (http://ip-172-31-19-100:44163/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2017-06-09 18:06:58,683: Unknown error initiating TCP/IP socket to ip-172-31-19-100:59274 (http://ip-172-31-19-100:44163/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2017-06-09 18:06:58,687: topic[/joint_trajectory] removing connection to http://ip-172-31-19-100:44163/
+[rospy.internal][INFO] 2017-06-09 18:16:30,015: topic[/joint_trajectory] adding connection to [http://ip-172-31-19-100:51155/], count 0
+[rospy.internal][INFO] 2017-06-09 18:16:31,020: topic[/motion_planning_goal] adding connection to [/move_arm_15635_1497057389607], count 2
+[rospy.internal][INFO] 2017-06-09 18:16:31,026: topic[/motion_planning_goal] removing connection to /move_arm_12273_1497056713587
+[rospy.internal][ERROR] 2017-06-09 18:17:07,570: Unable to initiate TCP/IP socket to ip-172-31-19-100:45410 (http://ip-172-31-19-100:51155/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rosout][WARNING] 2017-06-09 18:17:07,586: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2017-06-09 18:17:07,590: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][WARNING] 2017-06-09 18:17:08,754: Unknown error initiating TCP/IP socket to ip-172-31-19-100:45410 (http://ip-172-31-19-100:51155/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 363, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2017-06-09 18:17:08,758: topic[/joint_trajectory] removing connection to http://ip-172-31-19-100:51155/
+[rospy.internal][INFO] 2017-06-09 18:17:12,508: topic[/joint_trajectory] adding connection to [http://ip-172-31-19-100:45573/], count 0
+[rospy.internal][INFO] 2017-06-09 18:17:12,512: topic[/motion_planning_goal] adding connection to [/move_arm_16118_1497057432104], count 2
+[rospy.internal][INFO] 2017-06-09 18:17:12,516: topic[/motion_planning_goal] removing connection to /move_arm_12774_1497056767085
+[rospy.internal][ERROR] 2017-06-09 18:17:39,952: Unable to initiate TCP/IP socket to ip-172-31-19-100:36599 (http://ip-172-31-19-100:45573/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rosout][WARNING] 2017-06-09 18:17:40,577: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2017-06-09 18:17:40,578: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosgraph/network.py", line 365, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
